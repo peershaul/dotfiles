@@ -1,0 +1,4 @@
+./config.go
+./dirs.go
+./parser.go
+./runtime.go
