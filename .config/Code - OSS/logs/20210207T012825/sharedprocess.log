@@ -1,0 +1,26 @@
+[2021-02-07 01:28:29.222] [sharedprocess] [info] main {"machineId":"07ba63fdc234952a0088079e501d48a8dfb52e90a920daf6b0fdf3be05615a6c","windowId":2}
+[2021-02-07 01:29:09.229] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-02-07 01:36:54.564] [sharedprocess] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+[2021-02-07 01:36:55.306] [sharedprocess] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd undefined
+[2021-02-07 01:36:55.878] [sharedprocess] [info] Extracted extension to /home/peershaul/.vscode-oss/extensions/.llvm-vs-code-extensions.vscode-clangd-0.1.7: llvm-vs-code-extensions.vscode-clangd
+[2021-02-07 01:36:55.879] [sharedprocess] [info] Renamed to /home/peershaul/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.7
+[2021-02-07 01:36:55.880] [sharedprocess] [info] Installation completed. llvm-vs-code-extensions.vscode-clangd
+[2021-02-07 01:36:55.916] [sharedprocess] [info] Extensions installed successfully: llvm-vs-code-extensions.vscode-clangd
+[2021-02-07 01:36:58.731] [sharedprocess] [info] Installing extension: mitaki28.vscode-clang
+[2021-02-07 01:36:59.077] [sharedprocess] [info] Downloaded extension: mitaki28.vscode-clang undefined
+[2021-02-07 01:36:59.104] [sharedprocess] [info] Extracted extension to /home/peershaul/.vscode-oss/extensions/.mitaki28.vscode-clang-0.2.3: mitaki28.vscode-clang
+[2021-02-07 01:36:59.104] [sharedprocess] [info] Renamed to /home/peershaul/.vscode-oss/extensions/mitaki28.vscode-clang-0.2.3
+[2021-02-07 01:36:59.110] [sharedprocess] [info] Installation completed. mitaki28.vscode-clang
+[2021-02-07 01:36:59.151] [sharedprocess] [info] Extensions installed successfully: mitaki28.vscode-clang
+[2021-02-07 01:37:05.448] [sharedprocess] [info] Installing extension: ms-vscode.cmake-tools
+[2021-02-07 01:37:06.053] [sharedprocess] [info] Downloaded extension: ms-vscode.cmake-tools undefined
+[2021-02-07 01:37:06.145] [sharedprocess] [info] Extracted extension to /home/peershaul/.vscode-oss/extensions/.ms-vscode.cmake-tools-1.5.3: ms-vscode.cmake-tools
+[2021-02-07 01:37:06.145] [sharedprocess] [info] Renamed to /home/peershaul/.vscode-oss/extensions/ms-vscode.cmake-tools-1.5.3
+[2021-02-07 01:37:06.148] [sharedprocess] [info] Installation completed. ms-vscode.cmake-tools
+[2021-02-07 01:37:06.197] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cmake-tools
+[2021-02-07 01:37:18.229] [sharedprocess] [info] Installing extension: formulahendry.code-runner
+[2021-02-07 01:37:18.765] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner undefined
+[2021-02-07 01:37:18.890] [sharedprocess] [info] Extracted extension to /home/peershaul/.vscode-oss/extensions/.formulahendry.code-runner-0.11.2: formulahendry.code-runner
+[2021-02-07 01:37:18.890] [sharedprocess] [info] Renamed to /home/peershaul/.vscode-oss/extensions/formulahendry.code-runner-0.11.2
+[2021-02-07 01:37:18.890] [sharedprocess] [info] Installation completed. formulahendry.code-runner
+[2021-02-07 01:37:18.934] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner

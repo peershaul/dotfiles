@@ -1,0 +1,5 @@
+2021/02/05-22:58:13.094 14de Reusing MANIFEST /home/peershaul/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/05-23:13:30.377 17bf Level-0 table #5: started
+2021/02/05-23:13:30.465 17bf Level-0 table #5: 1125 bytes OK
+2021/02/05-23:13:30.561 17bf Delete type=0 #3
+2021/02/05-23:13:30.561 17bf Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

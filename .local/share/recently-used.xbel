@@ -13,4 +13,74 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///volume/OS/macOS-Simple-KVM/macOS.qcow2" added="2021-02-06T09:49:46.727613Z" modified="2021-02-06T09:49:46.727616Z" visited="2021-02-06T09:49:46.727613Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-qemu-disk"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="&apos;virt-manager %u&apos;" modified="2021-02-06T09:49:46.727614Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peershaul/Downloads/x16emu_linux-r38.zip" added="2021-02-06T18:02:36.698502Z" modified="2021-02-06T18:02:36.698514Z" visited="2021-02-06T18:02:36.698504Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-02-06T18:02:36.698508Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peershaul/Downloads/firmware-10.8.0-amd64-netinst.iso.torrent" added="2021-02-06T21:56:14.675128Z" modified="2021-02-06T21:56:14.675142Z" visited="2021-02-06T21:56:14.675130Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bittorrent"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-02-06T21:56:14.675135Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peershaul/Downloads/firmware-10.8.0-amd64-netinst.iso" added="2021-02-06T21:59:48.341483Z" modified="2021-02-06T21:59:48.341497Z" visited="2021-02-06T21:59:48.341484Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="&apos;virt-manager %u&apos;" modified="2021-02-06T21:59:48.341489Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///volume/VM&apos;s" added="2021-02-06T22:00:42.918038Z" modified="2021-02-06T22:00:42.918051Z" visited="2021-02-06T22:00:42.918040Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="&apos;virt-manager %u&apos;" modified="2021-02-06T22:00:42.918043Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peershaul/VM" added="2021-02-06T22:39:38.152550Z" modified="2021-02-06T22:39:38.152563Z" visited="2021-02-06T22:39:38.152551Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="&apos;virt-manager %u&apos;" modified="2021-02-06T22:39:38.152555Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peershaul/Downloads/MemeKing.png" added="2021-02-07T07:30:03.981484Z" modified="2021-02-07T07:30:03.981495Z" visited="2021-02-07T07:30:03.981485Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-02-07T07:30:03.981489Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

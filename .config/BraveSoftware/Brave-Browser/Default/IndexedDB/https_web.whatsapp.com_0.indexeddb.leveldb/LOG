@@ -1,0 +1,15 @@
+2021/02/07-04:37:32.227 1d9c Reusing MANIFEST /home/peershaul/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/07-04:37:32.227 1d9c Recovering log #4
+2021/02/07-04:37:32.532 1d9c Reusing old log /home/peershaul/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000004.log 
+2021/02/07-04:38:04.793 1d93 Level-0 table #8: started
+2021/02/07-04:38:04.864 1d93 Level-0 table #8: 975315 bytes OK
+2021/02/07-04:38:04.903 1d93 Delete type=0 #4
+2021/02/07-04:38:04.904 1d93 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/07-04:38:04.904 1d93 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x02\x1f\x03\x00\x10\xd3\x92\xb7wwB\x00\x01,\x00g\x00F\x00W\x00M\x00F\x009\x00z\x003\x00L\x00A\x00H\x00W\x00F\x006\x00O\x00h\x008\x00m\x00D\x00Z\x008\x00m\x00x\x003\x00a\x00w\x00D\x00m\x00/\x00Z\x00D\x000\x00T\x00j\x008\x004\x00g\x000\x00U\x00q\x00E\x00X\x00g\x00=' @ 64137 : 1
+2021/02/07-04:38:04.904 1d93 Compacting 1@1 + 1@2 files
+2021/02/07-04:38:05.007 1d93 Generated table #9@1: 15059 keys, 906447 bytes
+2021/02/07-04:38:05.007 1d93 Compacted 1@1 + 1@2 files => 906447 bytes
+2021/02/07-04:38:05.040 1d93 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/07-04:38:05.041 1d93 Delete type=2 #5
+2021/02/07-04:38:05.041 1d93 Delete type=2 #8
+2021/02/07-04:38:05.042 1d93 Manual compaction at level-1 from '\x00\x05\x02\x1f\x03\x00\x10\xd3\x92\xb7wwB\x00\x01,\x00g\x00F\x00W\x00M\x00F\x009\x00z\x003\x00L\x00A\x00H\x00W\x00F\x006\x00O\x00h\x008\x00m\x00D\x00Z\x008\x00m\x00x\x003\x00a\x00w\x00D\x00m\x00/\x00Z\x00D\x000\x00T\x00j\x008\x004\x00g\x000\x00U\x00q\x00E\x00X\x00g\x00=' @ 64137 : 1 .. (end); will stop at (end)

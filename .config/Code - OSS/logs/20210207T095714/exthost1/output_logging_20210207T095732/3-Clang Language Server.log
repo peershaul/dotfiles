@@ -1,0 +1,1896 @@
+I[09:57:31.982] clangd version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+I[09:57:31.982] PID: 1989
+I[09:57:31.982] Working directory: /volume/dev/C++ stuff/helloworld
+I[09:57:31.982] argv[0]: /home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/bin/clangd
+I[09:57:31.982] Starting LSP over stdin/stdout
+I[09:57:32.000] <-- initialize(0)
+I[09:57:32.000] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[09:57:32.001] --> reply:initialize(0) 0 ms
+I[09:57:32.082] <-- initialized
+I[09:57:32.082] <-- textDocument/didOpen
+I[09:57:32.083] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[09:57:32.083] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 1 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[09:57:32.090] --> textDocument/clangd.fileStatus
+I[09:57:32.115] <-- textDocument/documentSymbol(1)
+I[09:57:32.115] <-- textDocument/codeAction(2)
+I[09:57:32.115] <-- textDocument/documentLink(3)
+I[09:57:32.381] --> textDocument/publishDiagnostics
+I[09:57:32.381] --> reply:textDocument/documentSymbol(1) 265 ms
+I[09:57:32.381] --> reply:textDocument/codeAction(2) 265 ms
+I[09:57:32.381] --> reply:textDocument/documentLink(3) 265 ms
+I[09:57:32.381] --> textDocument/clangd.fileStatus
+I[09:57:32.391] <-- textDocument/semanticTokens/full(4)
+I[09:57:32.391] --> reply:textDocument/semanticTokens/full(4) 0 ms
+I[09:57:32.391] --> textDocument/clangd.fileStatus
+I[09:57:33.854] <-- textDocument/codeAction(5)
+I[09:57:33.854] --> reply:textDocument/codeAction(5) 0 ms
+I[09:57:33.854] --> textDocument/clangd.fileStatus
+I[09:57:35.826] <-- textDocument/documentLink(6)
+I[09:57:35.827] <-- textDocument/codeAction(7)
+I[09:57:35.827] --> reply:textDocument/documentLink(6) 0 ms
+I[09:57:35.827] --> reply:textDocument/codeAction(7) 0 ms
+I[09:57:35.827] <-- textDocument/documentSymbol(8)
+I[09:57:35.827] --> textDocument/clangd.fileStatus
+I[09:57:35.827] --> reply:textDocument/documentSymbol(8) 0 ms
+I[09:57:35.827] --> textDocument/clangd.fileStatus
+I[09:57:36.052] <-- textDocument/codeAction(9)
+I[09:57:36.052] --> reply:textDocument/codeAction(9) 0 ms
+I[09:57:36.052] --> textDocument/clangd.fileStatus
+I[09:57:38.074] <-- textDocument/documentLink(10)
+I[09:57:38.074] <-- textDocument/codeAction(11)
+I[09:57:38.074] <-- textDocument/documentSymbol(12)
+I[09:57:38.075] --> reply:textDocument/documentLink(10) 0 ms
+I[09:57:38.075] --> reply:textDocument/codeAction(11) 0 ms
+I[09:57:38.075] --> reply:textDocument/documentSymbol(12) 0 ms
+I[09:57:38.075] --> textDocument/clangd.fileStatus
+I[09:57:38.297] <-- textDocument/codeAction(13)
+I[09:57:38.297] --> reply:textDocument/codeAction(13) 0 ms
+I[09:57:38.297] --> textDocument/clangd.fileStatus
+I[10:02:56.346] <-- textDocument/hover(14)
+I[10:02:56.348] --> reply:textDocument/hover(14) 2 ms
+I[10:02:56.348] --> textDocument/clangd.fileStatus
+I[10:02:56.545] <-- textDocument/hover(15)
+I[10:02:56.547] --> reply:textDocument/hover(15) 2 ms
+I[10:02:56.547] --> textDocument/clangd.fileStatus
+I[10:03:00.057] <-- textDocument/definition(16)
+I[10:03:00.058] --> reply:textDocument/definition(16) 0 ms
+I[10:03:00.058] --> textDocument/clangd.fileStatus
+I[10:03:00.075] <-- textDocument/didOpen
+I[10:03:00.076] <-- textDocument/didClose
+I[10:03:00.076] --> textDocument/publishDiagnostics
+I[10:03:00.076] Failed to find compilation database for /usr/include/c++/10.2.0/iostream
+I[10:03:00.076] ASTWorker building file /usr/include/c++/10.2.0/iostream version 1 with command clangd fallback
+[/usr/include/c++/10.2.0]
+/usr/bin/clang -xobjective-c++-header /usr/include/c++/10.2.0/iostream -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:00.141] <-- textDocument/documentHighlight(17)
+I[10:03:00.141] --> reply:textDocument/documentHighlight(17) 0 ms
+I[10:03:00.141] --> textDocument/clangd.fileStatus
+I[10:03:00.326] <-- textDocument/definition(18)
+I[10:03:00.326] --> reply:textDocument/definition(18) 0 ms
+I[10:03:00.326] --> textDocument/clangd.fileStatus
+I[10:03:00.365] <-- textDocument/didOpen
+I[10:03:00.365] <-- textDocument/documentLink(19)
+I[10:03:00.365] Failed to find compilation database for /usr/include/c++/10.2.0/iostream
+I[10:03:00.365] <-- textDocument/codeAction(20)
+I[10:03:00.365] ASTWorker building file /usr/include/c++/10.2.0/iostream version 1 with command clangd fallback
+[/usr/include/c++/10.2.0]
+/usr/bin/clang -xobjective-c++-header /usr/include/c++/10.2.0/iostream -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:00.365] <-- textDocument/documentSymbol(21)
+I[10:03:00.366] --> textDocument/clangd.fileStatus
+I[10:03:00.383] <-- textDocument/semanticTokens/full(22)
+I[10:03:00.611] --> textDocument/publishDiagnostics
+I[10:03:00.611] --> reply:textDocument/documentLink(19) 246 ms
+I[10:03:00.611] --> reply:textDocument/codeAction(20) 246 ms
+I[10:03:00.612] --> reply:textDocument/documentSymbol(21) 246 ms
+I[10:03:00.612] --> reply:textDocument/semanticTokens/full(22) 228 ms
+I[10:03:00.612] --> textDocument/clangd.fileStatus
+I[10:03:00.914] <-- textDocument/codeAction(23)
+I[10:03:00.914] --> reply:textDocument/codeAction(23) 0 ms
+I[10:03:00.914] --> textDocument/clangd.fileStatus
+I[10:03:09.169] <-- textDocument/didClose
+I[10:03:09.169] --> textDocument/publishDiagnostics
+I[10:03:09.169] <-- textDocument/documentLink(24)
+I[10:03:09.169] --> reply:textDocument/documentLink(24) 0 ms
+I[10:03:09.169] --> textDocument/clangd.fileStatus
+I[10:03:09.169] <-- textDocument/codeAction(25)
+I[10:03:09.169] <-- textDocument/documentSymbol(26)
+I[10:03:09.169] --> reply:textDocument/codeAction(25) 0 ms
+I[10:03:09.169] --> reply:textDocument/documentSymbol(26) 0 ms
+I[10:03:09.169] --> textDocument/clangd.fileStatus
+I[10:03:09.396] <-- textDocument/codeAction(27)
+I[10:03:09.396] --> reply:textDocument/codeAction(27) 0 ms
+I[10:03:09.396] --> textDocument/clangd.fileStatus
+I[10:03:10.359] <-- textDocument/codeAction(28)
+I[10:03:10.359] --> reply:textDocument/codeAction(28) 0 ms
+I[10:03:10.360] --> textDocument/clangd.fileStatus
+I[10:03:11.293] <-- textDocument/didChange
+I[10:03:11.293] --> textDocument/clangd.fileStatus
+I[10:03:11.343] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:11.344] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 2 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:11.349] --> textDocument/clangd.fileStatus
+I[10:03:11.349] --> textDocument/clangd.fileStatus
+I[10:03:11.351] --> textDocument/clangd.fileStatus
+I[10:03:11.381] --> textDocument/publishDiagnostics
+I[10:03:11.381] --> textDocument/clangd.fileStatus
+I[10:03:11.475] <-- textDocument/didChange
+I[10:03:11.476] --> textDocument/clangd.fileStatus
+I[10:03:11.526] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:11.527] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 3 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:11.532] --> textDocument/clangd.fileStatus
+I[10:03:11.532] --> textDocument/clangd.fileStatus
+I[10:03:11.534] --> textDocument/clangd.fileStatus
+I[10:03:11.563] --> textDocument/publishDiagnostics
+I[10:03:11.563] --> textDocument/clangd.fileStatus
+I[10:03:11.575] <-- textDocument/semanticTokens/full/delta(29)
+I[10:03:11.575] --> reply:textDocument/semanticTokens/full/delta(29) 0 ms
+I[10:03:11.575] --> textDocument/clangd.fileStatus
+I[10:03:11.801] <-- textDocument/documentSymbol(30)
+I[10:03:11.801] --> reply:textDocument/documentSymbol(30) 0 ms
+I[10:03:11.801] --> textDocument/clangd.fileStatus
+I[10:03:12.301] <-- textDocument/didChange
+I[10:03:12.302] --> textDocument/clangd.fileStatus
+I[10:03:12.316] <-- textDocument/documentLink(31)
+I[10:03:12.316] <-- textDocument/completion(32)
+I[10:03:12.316] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:12.317] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 4 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:12.318] --> textDocument/clangd.fileStatus
+I[10:03:12.324] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:12.324] Code complete: 3 results from Sema, 101 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:12.326] --> reply:textDocument/completion(32) 9 ms
+I[10:03:12.329] --> reply:textDocument/documentLink(31) 12 ms
+I[10:03:12.329] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:12.329] --> textDocument/publishDiagnostics
+I[10:03:12.329] --> textDocument/clangd.fileStatus
+I[10:03:12.516] <-- textDocument/didChange
+I[10:03:12.518] <-- textDocument/completion(33)
+I[10:03:12.518] --> textDocument/clangd.fileStatus
+I[10:03:12.531] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:12.531] Code complete: 1 results from Sema, 99 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:12.534] --> reply:textDocument/completion(33) 16 ms
+I[10:03:12.568] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:12.568] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 5 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:12.569] --> textDocument/clangd.fileStatus
+I[10:03:12.570] --> textDocument/clangd.fileStatus
+I[10:03:12.570] --> textDocument/clangd.fileStatus
+I[10:03:12.578] --> textDocument/publishDiagnostics
+I[10:03:12.578] --> textDocument/clangd.fileStatus
+I[10:03:12.583] <-- textDocument/semanticTokens/full/delta(34)
+I[10:03:12.583] --> reply:textDocument/semanticTokens/full/delta(34) 0 ms
+I[10:03:12.583] --> textDocument/clangd.fileStatus
+I[10:03:12.710] <-- textDocument/didChange
+I[10:03:12.710] --> textDocument/clangd.fileStatus
+I[10:03:12.710] <-- textDocument/completion(35)
+I[10:03:12.725] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:12.726] Code complete: 1 results from Sema, 100 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:12.730] --> reply:textDocument/completion(35) 19 ms
+I[10:03:12.760] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:12.761] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 6 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:12.762] --> textDocument/clangd.fileStatus
+I[10:03:12.762] --> textDocument/clangd.fileStatus
+I[10:03:12.763] --> textDocument/clangd.fileStatus
+I[10:03:12.773] --> textDocument/publishDiagnostics
+I[10:03:12.773] --> textDocument/clangd.fileStatus
+I[10:03:12.790] <-- textDocument/didChange
+I[10:03:12.791] --> textDocument/clangd.fileStatus
+I[10:03:12.841] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:12.841] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 7 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:12.843] --> textDocument/clangd.fileStatus
+I[10:03:12.843] --> textDocument/clangd.fileStatus
+I[10:03:12.843] --> textDocument/clangd.fileStatus
+I[10:03:12.850] --> textDocument/publishDiagnostics
+I[10:03:12.850] --> textDocument/clangd.fileStatus
+I[10:03:12.991] <-- textDocument/semanticTokens/full/delta(36)
+I[10:03:12.992] --> reply:textDocument/semanticTokens/full/delta(36) 0 ms
+I[10:03:12.992] --> textDocument/clangd.fileStatus
+I[10:03:13.137] <-- textDocument/documentSymbol(37)
+I[10:03:13.137] --> reply:textDocument/documentSymbol(37) 0 ms
+I[10:03:13.137] --> textDocument/clangd.fileStatus
+I[10:03:13.315] <-- textDocument/didChange
+I[10:03:13.316] --> textDocument/clangd.fileStatus
+I[10:03:13.328] <-- textDocument/completion(38)
+I[10:03:13.341] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:13.342] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[10:03:13.342] --> reply:textDocument/completion(38) 13 ms
+I[10:03:13.367] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:13.367] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 8 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:13.372] --> textDocument/clangd.fileStatus
+I[10:03:13.373] --> textDocument/clangd.fileStatus
+I[10:03:13.374] --> textDocument/clangd.fileStatus
+I[10:03:13.399] --> textDocument/publishDiagnostics
+I[10:03:13.399] --> textDocument/clangd.fileStatus
+I[10:03:13.490] <-- textDocument/didChange
+I[10:03:13.491] --> textDocument/clangd.fileStatus
+I[10:03:13.511] <-- textDocument/documentLink(39)
+I[10:03:13.511] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:13.512] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 9 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:13.514] --> textDocument/clangd.fileStatus
+I[10:03:13.531] --> reply:textDocument/documentLink(39) 19 ms
+I[10:03:13.531] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:13.531] --> textDocument/publishDiagnostics
+I[10:03:13.531] --> textDocument/clangd.fileStatus
+I[10:03:13.591] <-- textDocument/semanticTokens/full/delta(40)
+I[10:03:13.591] --> reply:textDocument/semanticTokens/full/delta(40) 0 ms
+I[10:03:13.591] --> textDocument/clangd.fileStatus
+I[10:03:13.772] <-- textDocument/didChange
+I[10:03:13.775] --> textDocument/clangd.fileStatus
+I[10:03:13.825] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:13.825] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 10 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:13.827] --> textDocument/clangd.fileStatus
+I[10:03:13.827] --> textDocument/clangd.fileStatus
+I[10:03:13.828] --> textDocument/clangd.fileStatus
+I[10:03:13.840] --> textDocument/publishDiagnostics
+I[10:03:13.840] --> textDocument/clangd.fileStatus
+I[10:03:14.064] <-- textDocument/semanticTokens/full/delta(41)
+I[10:03:14.064] --> reply:textDocument/semanticTokens/full/delta(41) 0 ms
+I[10:03:14.064] --> textDocument/clangd.fileStatus
+I[10:03:14.084] <-- textDocument/didChange
+I[10:03:14.085] --> textDocument/clangd.fileStatus
+I[10:03:14.121] <-- textDocument/completion(42)
+I[10:03:14.129] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:14.129] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[10:03:14.129] --> reply:textDocument/completion(42) 8 ms
+I[10:03:14.135] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:14.135] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 11 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:14.137] --> textDocument/clangd.fileStatus
+I[10:03:14.137] --> textDocument/clangd.fileStatus
+I[10:03:14.138] --> textDocument/clangd.fileStatus
+I[10:03:14.146] --> textDocument/publishDiagnostics
+I[10:03:14.146] --> textDocument/clangd.fileStatus
+I[10:03:14.337] <-- textDocument/didChange
+I[10:03:14.339] --> textDocument/clangd.fileStatus
+I[10:03:14.377] <-- textDocument/semanticTokens/full/delta(43)
+I[10:03:14.377] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:14.378] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 12 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:14.380] --> textDocument/clangd.fileStatus
+I[10:03:14.395] --> reply:textDocument/semanticTokens/full/delta(43) 18 ms
+I[10:03:14.395] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:14.396] --> textDocument/publishDiagnostics
+I[10:03:14.396] --> textDocument/clangd.fileStatus
+I[10:03:14.435] <-- textDocument/didChange
+I[10:03:14.436] --> textDocument/clangd.fileStatus
+I[10:03:14.486] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:14.487] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 13 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:14.492] --> textDocument/clangd.fileStatus
+I[10:03:14.492] --> textDocument/clangd.fileStatus
+I[10:03:14.494] --> textDocument/clangd.fileStatus
+I[10:03:14.494] --> textDocument/clangd.fileStatus
+I[10:03:14.519] --> textDocument/publishDiagnostics
+I[10:03:14.519] --> textDocument/clangd.fileStatus
+I[10:03:14.728] <-- textDocument/didChange
+I[10:03:14.730] --> textDocument/clangd.fileStatus
+I[10:03:14.760] <-- textDocument/semanticTokens/full/delta(44)
+I[10:03:14.760] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:14.760] <-- textDocument/completion(45)
+I[10:03:14.760] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 14 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:14.762] --> textDocument/clangd.fileStatus
+I[10:03:14.763] <-- textDocument/documentLink(46)
+I[10:03:14.768] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:14.768] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[10:03:14.768] --> reply:textDocument/completion(45) 7 ms
+I[10:03:14.772] --> reply:textDocument/semanticTokens/full/delta(44) 11 ms
+I[10:03:14.772] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:14.772] --> textDocument/publishDiagnostics
+I[10:03:14.772] --> reply:textDocument/documentLink(46) 8 ms
+I[10:03:14.772] --> textDocument/clangd.fileStatus
+I[10:03:14.909] <-- textDocument/didChange
+I[10:03:14.909] --> textDocument/clangd.fileStatus
+I[10:03:14.960] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:14.960] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 15 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:14.962] --> textDocument/clangd.fileStatus
+I[10:03:14.962] --> textDocument/clangd.fileStatus
+I[10:03:14.963] --> textDocument/clangd.fileStatus
+I[10:03:14.975] --> textDocument/publishDiagnostics
+I[10:03:14.975] --> textDocument/clangd.fileStatus
+I[10:03:15.176] <-- textDocument/semanticTokens/full/delta(47)
+I[10:03:15.176] --> reply:textDocument/semanticTokens/full/delta(47) 0 ms
+I[10:03:15.176] --> textDocument/clangd.fileStatus
+I[10:03:15.226] <-- textDocument/documentSymbol(48)
+I[10:03:15.226] --> reply:textDocument/documentSymbol(48) 0 ms
+I[10:03:15.226] --> textDocument/clangd.fileStatus
+I[10:03:15.229] <-- textDocument/codeAction(49)
+I[10:03:15.229] --> reply:textDocument/codeAction(49) 0 ms
+I[10:03:15.229] --> textDocument/clangd.fileStatus
+I[10:03:15.254] <-- textDocument/didChange
+I[10:03:15.254] --> textDocument/clangd.fileStatus
+I[10:03:15.306] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:15.306] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 16 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:15.311] --> textDocument/clangd.fileStatus
+I[10:03:15.311] --> textDocument/clangd.fileStatus
+I[10:03:15.313] --> textDocument/clangd.fileStatus
+I[10:03:15.338] --> textDocument/publishDiagnostics
+I[10:03:15.338] --> textDocument/clangd.fileStatus
+I[10:03:15.477] <-- textDocument/didChange
+I[10:03:15.478] --> textDocument/clangd.fileStatus
+I[10:03:15.528] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:15.529] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 17 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:15.534] --> textDocument/clangd.fileStatus
+I[10:03:15.534] --> textDocument/clangd.fileStatus
+I[10:03:15.536] --> textDocument/clangd.fileStatus
+I[10:03:15.547] <-- textDocument/semanticTokens/full/delta(50)
+I[10:03:15.562] --> textDocument/publishDiagnostics
+I[10:03:15.562] --> reply:textDocument/semanticTokens/full/delta(50) 15 ms
+I[10:03:15.563] --> textDocument/clangd.fileStatus
+I[10:03:15.682] <-- textDocument/didChange
+I[10:03:15.683] --> textDocument/clangd.fileStatus
+I[10:03:15.733] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:15.734] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 18 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:15.738] --> textDocument/clangd.fileStatus
+I[10:03:15.739] --> textDocument/clangd.fileStatus
+I[10:03:15.740] --> textDocument/clangd.fileStatus
+I[10:03:15.762] --> textDocument/publishDiagnostics
+I[10:03:15.762] --> textDocument/clangd.fileStatus
+I[10:03:15.877] <-- textDocument/documentLink(51)
+I[10:03:15.878] --> reply:textDocument/documentLink(51) 0 ms
+I[10:03:15.878] --> textDocument/clangd.fileStatus
+I[10:03:15.920] <-- textDocument/didChange
+I[10:03:15.921] --> textDocument/clangd.fileStatus
+I[10:03:15.961] <-- textDocument/semanticTokens/full/delta(52)
+I[10:03:15.961] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:15.962] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 19 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:15.966] --> textDocument/clangd.fileStatus
+I[10:03:15.996] --> reply:textDocument/semanticTokens/full/delta(52) 35 ms
+I[10:03:15.996] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:15.996] --> textDocument/publishDiagnostics
+I[10:03:15.997] --> textDocument/clangd.fileStatus
+I[10:03:16.101] <-- textDocument/didChange
+I[10:03:16.102] --> textDocument/clangd.fileStatus
+I[10:03:16.152] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:16.153] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 20 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:16.156] --> textDocument/clangd.fileStatus
+I[10:03:16.156] --> textDocument/clangd.fileStatus
+I[10:03:16.158] --> textDocument/clangd.fileStatus
+I[10:03:16.176] --> textDocument/publishDiagnostics
+I[10:03:16.176] --> textDocument/clangd.fileStatus
+I[10:03:16.376] <-- textDocument/semanticTokens/full/delta(53)
+I[10:03:16.376] --> reply:textDocument/semanticTokens/full/delta(53) 0 ms
+I[10:03:16.376] --> textDocument/clangd.fileStatus
+I[10:03:16.424] <-- textDocument/didChange
+I[10:03:16.427] --> textDocument/clangd.fileStatus
+I[10:03:16.477] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:16.477] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 21 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:16.480] --> textDocument/clangd.fileStatus
+I[10:03:16.480] --> textDocument/clangd.fileStatus
+I[10:03:16.482] --> textDocument/clangd.fileStatus
+I[10:03:16.500] --> textDocument/publishDiagnostics
+I[10:03:16.500] --> textDocument/clangd.fileStatus
+I[10:03:16.664] <-- textDocument/didChange
+I[10:03:16.664] --> textDocument/clangd.fileStatus
+I[10:03:16.714] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:16.715] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 22 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:16.718] <-- textDocument/semanticTokens/full/delta(54)
+I[10:03:16.720] --> textDocument/clangd.fileStatus
+I[10:03:16.747] --> reply:textDocument/semanticTokens/full/delta(54) 28 ms
+I[10:03:16.747] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:16.747] --> textDocument/publishDiagnostics
+I[10:03:16.747] --> textDocument/clangd.fileStatus
+I[10:03:16.900] <-- textDocument/documentLink(55)
+I[10:03:16.900] --> reply:textDocument/documentLink(55) 0 ms
+I[10:03:16.900] --> textDocument/clangd.fileStatus
+I[10:03:16.987] <-- textDocument/documentSymbol(56)
+I[10:03:16.987] --> reply:textDocument/documentSymbol(56) 0 ms
+I[10:03:16.987] --> textDocument/clangd.fileStatus
+I[10:03:17.005] <-- textDocument/didChange
+I[10:03:17.006] --> textDocument/clangd.fileStatus
+I[10:03:17.056] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:17.057] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 23 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:17.062] --> textDocument/clangd.fileStatus
+I[10:03:17.062] --> textDocument/clangd.fileStatus
+I[10:03:17.064] --> textDocument/clangd.fileStatus
+I[10:03:17.090] --> textDocument/publishDiagnostics
+I[10:03:17.090] --> textDocument/clangd.fileStatus
+I[10:03:17.140] <-- textDocument/didChange
+I[10:03:17.142] --> textDocument/clangd.fileStatus
+I[10:03:17.191] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:17.192] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 24 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:17.197] --> textDocument/clangd.fileStatus
+I[10:03:17.197] --> textDocument/clangd.fileStatus
+I[10:03:17.199] --> textDocument/clangd.fileStatus
+I[10:03:17.224] --> textDocument/publishDiagnostics
+I[10:03:17.224] --> textDocument/clangd.fileStatus
+I[10:03:17.261] <-- textDocument/didChange
+I[10:03:17.263] --> textDocument/clangd.fileStatus
+I[10:03:17.301] <-- textDocument/semanticTokens/full/delta(57)
+I[10:03:17.301] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:17.301] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 25 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:17.305] --> textDocument/clangd.fileStatus
+I[10:03:17.326] --> reply:textDocument/semanticTokens/full/delta(57) 25 ms
+I[10:03:17.326] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:17.326] --> textDocument/publishDiagnostics
+I[10:03:17.326] --> textDocument/clangd.fileStatus
+I[10:03:17.500] <-- textDocument/didChange
+I[10:03:17.501] --> textDocument/clangd.fileStatus
+I[10:03:17.551] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:17.552] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 26 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:17.557] --> textDocument/clangd.fileStatus
+I[10:03:17.557] --> textDocument/clangd.fileStatus
+I[10:03:17.559] --> textDocument/clangd.fileStatus
+I[10:03:17.587] --> textDocument/publishDiagnostics
+I[10:03:17.589] --> textDocument/clangd.fileStatus
+I[10:03:17.782] <-- textDocument/semanticTokens/full/delta(58)
+I[10:03:17.783] --> reply:textDocument/semanticTokens/full/delta(58) 0 ms
+I[10:03:17.783] --> textDocument/clangd.fileStatus
+I[10:03:17.834] <-- textDocument/documentSymbol(59)
+I[10:03:17.834] --> reply:textDocument/documentSymbol(59) 0 ms
+I[10:03:17.834] --> textDocument/clangd.fileStatus
+I[10:03:17.845] <-- textDocument/codeAction(60)
+I[10:03:17.845] --> reply:textDocument/codeAction(60) 0 ms
+I[10:03:17.845] --> textDocument/clangd.fileStatus
+I[10:03:17.892] <-- textDocument/didChange
+I[10:03:17.894] --> textDocument/clangd.fileStatus
+I[10:03:17.944] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:17.945] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 27 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:17.949] --> textDocument/clangd.fileStatus
+I[10:03:17.949] --> textDocument/clangd.fileStatus
+I[10:03:17.951] --> textDocument/clangd.fileStatus
+I[10:03:17.976] --> textDocument/publishDiagnostics
+I[10:03:17.976] --> textDocument/clangd.fileStatus
+I[10:03:18.001] <-- textDocument/documentLink(61)
+I[10:03:18.001] --> reply:textDocument/documentLink(61) 0 ms
+I[10:03:18.001] --> textDocument/clangd.fileStatus
+I[10:03:18.184] <-- textDocument/semanticTokens/full/delta(62)
+I[10:03:18.184] --> reply:textDocument/semanticTokens/full/delta(62) 0 ms
+I[10:03:18.184] --> textDocument/clangd.fileStatus
+I[10:03:18.235] <-- textDocument/documentSymbol(63)
+I[10:03:18.235] --> reply:textDocument/documentSymbol(63) 0 ms
+I[10:03:18.236] --> textDocument/clangd.fileStatus
+I[10:03:19.453] <-- textDocument/didSave
+I[10:03:19.454] --> textDocument/clangd.fileStatus
+I[10:03:19.506] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:19.507] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 27 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:19.512] --> textDocument/clangd.fileStatus
+I[10:03:19.512] --> textDocument/clangd.fileStatus
+I[10:03:19.514] --> textDocument/clangd.fileStatus
+I[10:03:19.515] --> textDocument/clangd.fileStatus
+I[10:03:19.659] <-- textDocument/didChange
+I[10:03:19.660] --> textDocument/clangd.fileStatus
+I[10:03:19.668] <-- textDocument/completion(64)
+I[10:03:19.679] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:19.680] Code complete: 2 results from Sema, 100 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:19.683] --> reply:textDocument/completion(64) 14 ms
+I[10:03:19.710] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:19.710] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 28 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:19.712] --> textDocument/clangd.fileStatus
+I[10:03:19.712] --> textDocument/clangd.fileStatus
+I[10:03:19.713] --> textDocument/clangd.fileStatus
+I[10:03:19.722] --> textDocument/publishDiagnostics
+I[10:03:19.722] --> textDocument/clangd.fileStatus
+I[10:03:19.937] <-- textDocument/semanticTokens/full/delta(65)
+I[10:03:19.937] --> reply:textDocument/semanticTokens/full/delta(65) 0 ms
+I[10:03:19.938] --> textDocument/clangd.fileStatus
+I[10:03:19.983] <-- textDocument/didChange
+I[10:03:19.985] --> textDocument/clangd.fileStatus
+I[10:03:19.985] <-- textDocument/completion(66)
+I[10:03:20.003] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:20.003] Code complete: 1 results from Sema, 32 from Index, 0 matched, 0 from identifiers, 33 returned (incomplete).
+I[10:03:20.006] --> reply:textDocument/completion(66) 20 ms
+I[10:03:20.035] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:20.035] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 29 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:20.037] --> textDocument/clangd.fileStatus
+I[10:03:20.037] --> textDocument/clangd.fileStatus
+I[10:03:20.038] --> textDocument/clangd.fileStatus
+I[10:03:20.041] <-- textDocument/didChange
+I[10:03:20.042] <-- textDocument/completion(67)
+I[10:03:20.048] --> textDocument/publishDiagnostics
+I[10:03:20.048] --> textDocument/clangd.fileStatus
+I[10:03:20.050] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:20.050] Code complete: 0 results from Sema, 20 from Index, 0 matched, 0 from identifiers, 20 returned.
+I[10:03:20.050] --> reply:textDocument/completion(67) 8 ms
+I[10:03:20.092] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:20.092] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 30 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:20.093] --> textDocument/clangd.fileStatus
+I[10:03:20.093] --> textDocument/clangd.fileStatus
+I[10:03:20.094] --> textDocument/clangd.fileStatus
+I[10:03:20.100] --> textDocument/publishDiagnostics
+I[10:03:20.100] --> textDocument/clangd.fileStatus
+I[10:03:20.268] <-- textDocument/didChange
+I[10:03:20.269] <-- textDocument/completion(68)
+I[10:03:20.269] --> textDocument/clangd.fileStatus
+I[10:03:20.278] <-- textDocument/semanticTokens/full/delta(69)
+I[10:03:20.279] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:20.279] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 31 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:20.280] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:20.280] Code complete: 0 results from Sema, 11 from Index, 0 matched, 0 from identifiers, 11 returned.
+I[10:03:20.280] --> textDocument/clangd.fileStatus
+I[10:03:20.280] --> reply:textDocument/completion(68) 11 ms
+I[10:03:20.290] --> reply:textDocument/semanticTokens/full/delta(69) 11 ms
+I[10:03:20.290] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:20.290] --> textDocument/publishDiagnostics
+I[10:03:20.290] --> textDocument/clangd.fileStatus
+I[10:03:20.419] <-- textDocument/didChange
+I[10:03:20.420] --> textDocument/clangd.fileStatus
+I[10:03:20.420] <-- textDocument/completion(70)
+I[10:03:20.431] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:20.431] Code complete: 0 results from Sema, 3 from Index, 0 matched, 0 from identifiers, 3 returned.
+I[10:03:20.431] --> reply:textDocument/completion(70) 11 ms
+I[10:03:20.470] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:20.470] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 32 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:20.475] --> textDocument/clangd.fileStatus
+I[10:03:20.476] --> textDocument/clangd.fileStatus
+I[10:03:20.477] --> textDocument/clangd.fileStatus
+I[10:03:20.504] --> textDocument/publishDiagnostics
+I[10:03:20.505] --> textDocument/clangd.fileStatus
+I[10:03:20.637] <-- textDocument/documentLink(71)
+I[10:03:20.637] --> reply:textDocument/documentLink(71) 0 ms
+I[10:03:20.637] --> textDocument/clangd.fileStatus
+I[10:03:20.695] <-- textDocument/semanticTokens/full/delta(72)
+I[10:03:20.695] --> reply:textDocument/semanticTokens/full/delta(72) 0 ms
+I[10:03:20.695] --> textDocument/clangd.fileStatus
+I[10:03:20.746] <-- textDocument/documentSymbol(73)
+I[10:03:20.746] --> reply:textDocument/documentSymbol(73) 0 ms
+I[10:03:20.747] --> textDocument/clangd.fileStatus
+I[10:03:20.763] <-- textDocument/codeAction(74)
+I[10:03:20.763] --> reply:textDocument/codeAction(74) 0 ms
+I[10:03:20.763] --> textDocument/clangd.fileStatus
+I[10:03:21.435] <-- textDocument/didSave
+I[10:03:21.437] --> textDocument/clangd.fileStatus
+I[10:03:21.487] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:21.487] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 32 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:21.489] --> textDocument/clangd.fileStatus
+I[10:03:21.489] --> textDocument/clangd.fileStatus
+I[10:03:21.490] --> textDocument/clangd.fileStatus
+I[10:03:21.490] --> textDocument/clangd.fileStatus
+I[10:03:22.419] <-- textDocument/didChange
+I[10:03:22.420] <-- textDocument/completion(75)
+I[10:03:22.420] --> textDocument/clangd.fileStatus
+I[10:03:22.433] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:22.433] Code complete: 0 results from Sema, 11 from Index, 0 matched, 0 from identifiers, 11 returned.
+I[10:03:22.434] --> reply:textDocument/completion(75) 13 ms
+I[10:03:22.470] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:22.471] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 33 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:22.472] --> textDocument/clangd.fileStatus
+I[10:03:22.472] --> textDocument/clangd.fileStatus
+I[10:03:22.473] --> textDocument/clangd.fileStatus
+I[10:03:22.481] --> textDocument/publishDiagnostics
+I[10:03:22.481] --> textDocument/clangd.fileStatus
+I[10:03:22.550] <-- textDocument/didChange
+I[10:03:22.552] --> textDocument/clangd.fileStatus
+I[10:03:22.552] <-- textDocument/completion(76)
+I[10:03:22.573] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:22.573] Code complete: 0 results from Sema, 20 from Index, 0 matched, 0 from identifiers, 20 returned.
+I[10:03:22.574] --> reply:textDocument/completion(76) 22 ms
+I[10:03:22.602] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:22.602] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 34 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:22.606] --> textDocument/clangd.fileStatus
+I[10:03:22.606] --> textDocument/clangd.fileStatus
+I[10:03:22.607] --> textDocument/clangd.fileStatus
+I[10:03:22.621] --> textDocument/publishDiagnostics
+I[10:03:22.621] --> textDocument/clangd.fileStatus
+I[10:03:22.693] <-- textDocument/didChange
+I[10:03:22.695] <-- textDocument/completion(77)
+I[10:03:22.695] <-- textDocument/semanticTokens/full/delta(78)
+I[10:03:22.695] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:22.695] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 35 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:22.697] --> textDocument/clangd.fileStatus
+I[10:03:22.703] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:22.703] Code complete: 1 results from Sema, 32 from Index, 0 matched, 0 from identifiers, 33 returned (incomplete).
+I[10:03:22.705] --> reply:textDocument/completion(77) 10 ms
+I[10:03:22.707] --> reply:textDocument/semanticTokens/full/delta(78) 12 ms
+I[10:03:22.707] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:22.707] --> textDocument/publishDiagnostics
+I[10:03:22.707] --> textDocument/clangd.fileStatus
+I[10:03:22.838] <-- textDocument/didChange
+I[10:03:22.839] --> textDocument/clangd.fileStatus
+I[10:03:22.839] <-- textDocument/completion(79)
+I[10:03:22.854] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:22.854] Code complete: 2 results from Sema, 100 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:22.859] --> reply:textDocument/completion(79) 19 ms
+I[10:03:22.889] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:22.889] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 36 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:22.891] --> textDocument/clangd.fileStatus
+I[10:03:22.891] --> textDocument/clangd.fileStatus
+I[10:03:22.892] --> textDocument/clangd.fileStatus
+I[10:03:22.899] --> textDocument/publishDiagnostics
+I[10:03:22.899] --> textDocument/clangd.fileStatus
+I[10:03:22.967] <-- textDocument/didChange
+I[10:03:22.968] --> textDocument/clangd.fileStatus
+I[10:03:23.018] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:23.019] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 37 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:23.023] --> textDocument/clangd.fileStatus
+I[10:03:23.024] --> textDocument/clangd.fileStatus
+I[10:03:23.026] --> textDocument/clangd.fileStatus
+I[10:03:23.055] --> textDocument/publishDiagnostics
+I[10:03:23.055] --> textDocument/clangd.fileStatus
+I[10:03:23.102] <-- textDocument/didChange
+I[10:03:23.103] --> textDocument/clangd.fileStatus
+I[10:03:23.117] <-- textDocument/semanticTokens/full/delta(80)
+I[10:03:23.117] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:23.118] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 38 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:23.123] --> textDocument/clangd.fileStatus
+I[10:03:23.154] --> reply:textDocument/semanticTokens/full/delta(80) 37 ms
+I[10:03:23.155] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:23.156] --> textDocument/publishDiagnostics
+I[10:03:23.156] --> textDocument/clangd.fileStatus
+I[10:03:23.387] <-- textDocument/documentLink(81)
+I[10:03:23.387] --> reply:textDocument/documentLink(81) 0 ms
+I[10:03:23.388] --> textDocument/clangd.fileStatus
+I[10:03:23.453] <-- textDocument/documentSymbol(82)
+I[10:03:23.453] --> reply:textDocument/documentSymbol(82) 0 ms
+I[10:03:23.453] --> textDocument/clangd.fileStatus
+I[10:03:23.695] <-- textDocument/didChange
+I[10:03:23.697] --> textDocument/clangd.fileStatus
+I[10:03:23.747] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:23.747] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 39 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:23.752] --> textDocument/clangd.fileStatus
+I[10:03:23.752] --> textDocument/clangd.fileStatus
+I[10:03:23.754] --> textDocument/clangd.fileStatus
+I[10:03:23.782] --> textDocument/publishDiagnostics
+I[10:03:23.782] --> textDocument/clangd.fileStatus
+I[10:03:23.991] <-- textDocument/semanticTokens/full/delta(83)
+I[10:03:23.991] --> reply:textDocument/semanticTokens/full/delta(83) 0 ms
+I[10:03:23.991] --> textDocument/clangd.fileStatus
+I[10:03:24.012] <-- textDocument/didChange
+I[10:03:24.013] --> textDocument/clangd.fileStatus
+I[10:03:24.035] <-- textDocument/completion(84)
+I[10:03:24.045] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:24.046] Code complete: 6 results from Sema, 24 from Index, 0 matched, 0 from identifiers, 30 returned (incomplete).
+I[10:03:24.046] --> reply:textDocument/completion(84) 11 ms
+I[10:03:24.063] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:24.064] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 40 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:24.066] --> textDocument/clangd.fileStatus
+I[10:03:24.066] --> textDocument/clangd.fileStatus
+I[10:03:24.067] --> textDocument/clangd.fileStatus
+I[10:03:24.078] --> textDocument/publishDiagnostics
+I[10:03:24.078] --> textDocument/clangd.fileStatus
+I[10:03:24.259] <-- textDocument/didChange
+I[10:03:24.260] <-- textDocument/completion(85)
+I[10:03:24.260] --> textDocument/clangd.fileStatus
+I[10:03:24.268] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:24.269] Code complete: 3 results from Sema, 7 from Index, 0 matched, 0 from identifiers, 10 returned (incomplete).
+I[10:03:24.269] --> reply:textDocument/completion(85) 9 ms
+I[10:03:24.307] <-- textDocument/semanticTokens/full/delta(86)
+I[10:03:24.307] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:24.307] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 41 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:24.312] --> textDocument/clangd.fileStatus
+I[10:03:24.337] --> reply:textDocument/semanticTokens/full/delta(86) 30 ms
+I[10:03:24.337] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:24.338] --> textDocument/publishDiagnostics
+I[10:03:24.338] --> textDocument/clangd.fileStatus
+I[10:03:24.588] <-- textDocument/documentSymbol(87)
+I[10:03:24.589] --> reply:textDocument/documentSymbol(87) 1 ms
+I[10:03:24.589] --> textDocument/clangd.fileStatus
+I[10:03:24.595] <-- textDocument/codeAction(88)
+I[10:03:24.596] --> reply:textDocument/codeAction(88) 0 ms
+I[10:03:24.596] --> textDocument/clangd.fileStatus
+I[10:03:24.628] <-- textDocument/didChange
+I[10:03:24.629] --> textDocument/clangd.fileStatus
+I[10:03:24.629] <-- textDocument/completion(89)
+I[10:03:24.641] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:24.642] Code complete: 6 results from Sema, 24 from Index, 0 matched, 0 from identifiers, 30 returned (incomplete).
+I[10:03:24.642] --> reply:textDocument/completion(89) 13 ms
+I[10:03:24.679] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:24.679] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 42 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:24.680] --> textDocument/clangd.fileStatus
+I[10:03:24.689] --> textDocument/publishDiagnostics
+I[10:03:24.689] --> textDocument/clangd.fileStatus
+I[10:03:24.692] <-- textDocument/documentLink(90)
+I[10:03:24.692] --> reply:textDocument/documentLink(90) 0 ms
+I[10:03:24.692] --> textDocument/clangd.fileStatus
+I[10:03:24.736] <-- textDocument/didChange
+I[10:03:24.736] --> textDocument/clangd.fileStatus
+I[10:03:24.787] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:24.787] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 43 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:24.792] --> textDocument/clangd.fileStatus
+I[10:03:24.792] --> textDocument/clangd.fileStatus
+I[10:03:24.794] --> textDocument/clangd.fileStatus
+I[10:03:24.824] --> textDocument/publishDiagnostics
+I[10:03:24.824] --> textDocument/clangd.fileStatus
+I[10:03:24.846] <-- textDocument/didChange
+I[10:03:24.847] --> textDocument/clangd.fileStatus
+I[10:03:24.853] <-- textDocument/completion(91)
+I[10:03:24.863] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:24.863] Code complete: 10 results from Sema, 90 from Index, 1 matched, 0 from identifiers, 99 returned (incomplete).
+I[10:03:24.865] --> reply:textDocument/completion(91) 11 ms
+I[10:03:24.897] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:24.897] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 44 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:24.898] --> textDocument/clangd.fileStatus
+I[10:03:24.898] --> textDocument/clangd.fileStatus
+I[10:03:24.899] --> textDocument/clangd.fileStatus
+I[10:03:24.908] --> textDocument/publishDiagnostics
+I[10:03:24.908] --> textDocument/clangd.fileStatus
+I[10:03:24.908] <-- textDocument/semanticTokens/full/delta(92)
+I[10:03:24.908] --> reply:textDocument/semanticTokens/full/delta(92) 0 ms
+I[10:03:24.908] --> textDocument/clangd.fileStatus
+I[10:03:25.069] <-- textDocument/didChange
+I[10:03:25.070] <-- textDocument/completion(93)
+I[10:03:25.070] --> textDocument/clangd.fileStatus
+I[10:03:25.080] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:25.080] Code complete: 0 results from Sema, 25 from Index, 0 matched, 0 from identifiers, 25 returned (incomplete).
+I[10:03:25.081] --> reply:textDocument/completion(93) 11 ms
+I[10:03:25.120] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:25.120] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 45 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:25.122] --> textDocument/clangd.fileStatus
+I[10:03:25.122] --> textDocument/clangd.fileStatus
+I[10:03:25.123] --> textDocument/clangd.fileStatus
+I[10:03:25.130] --> textDocument/publishDiagnostics
+I[10:03:25.130] --> textDocument/clangd.fileStatus
+I[10:03:25.346] <-- textDocument/didChange
+I[10:03:25.347] <-- textDocument/completion(94)
+I[10:03:25.347] --> textDocument/clangd.fileStatus
+I[10:03:25.348] <-- textDocument/semanticTokens/full/delta(95)
+I[10:03:25.348] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:25.348] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 46 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:25.351] --> textDocument/clangd.fileStatus
+I[10:03:25.360] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:25.360] Code complete: 0 results from Sema, 2 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[10:03:25.360] --> reply:textDocument/completion(94) 12 ms
+I[10:03:25.368] --> reply:textDocument/semanticTokens/full/delta(95) 19 ms
+I[10:03:25.368] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:25.368] --> textDocument/publishDiagnostics
+I[10:03:25.368] --> textDocument/clangd.fileStatus
+I[10:03:25.624] <-- textDocument/codeAction(96)
+I[10:03:25.624] --> reply:textDocument/codeAction(96) 0 ms
+I[10:03:25.624] --> textDocument/clangd.fileStatus
+I[10:03:25.674] <-- textDocument/documentSymbol(97)
+I[10:03:25.674] --> reply:textDocument/documentSymbol(97) 0 ms
+I[10:03:25.674] --> textDocument/clangd.fileStatus
+I[10:03:25.736] <-- textDocument/documentLink(98)
+I[10:03:25.736] --> reply:textDocument/documentLink(98) 0 ms
+I[10:03:25.736] --> textDocument/clangd.fileStatus
+I[10:03:25.997] <-- textDocument/didChange
+I[10:03:25.998] <-- textDocument/completion(99)
+I[10:03:25.998] --> textDocument/clangd.fileStatus
+I[10:03:26.016] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:26.016] Code complete: 0 results from Sema, 25 from Index, 0 matched, 0 from identifiers, 25 returned (incomplete).
+I[10:03:26.017] --> reply:textDocument/completion(99) 19 ms
+I[10:03:26.048] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:26.048] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 47 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:26.050] --> textDocument/clangd.fileStatus
+I[10:03:26.050] --> textDocument/clangd.fileStatus
+I[10:03:26.050] --> textDocument/clangd.fileStatus
+I[10:03:26.057] --> textDocument/publishDiagnostics
+I[10:03:26.057] --> textDocument/clangd.fileStatus
+I[10:03:26.071] <-- textDocument/didChange
+I[10:03:26.072] <-- textDocument/completion(100)
+I[10:03:26.072] --> textDocument/clangd.fileStatus
+I[10:03:26.077] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:26.077] Code complete: 0 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[10:03:26.077] --> reply:textDocument/completion(100) 5 ms
+I[10:03:26.123] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:26.123] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 48 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:26.128] --> textDocument/clangd.fileStatus
+I[10:03:26.128] --> textDocument/clangd.fileStatus
+I[10:03:26.131] --> textDocument/clangd.fileStatus
+I[10:03:26.160] --> textDocument/publishDiagnostics
+I[10:03:26.160] --> textDocument/clangd.fileStatus
+I[10:03:26.276] <-- textDocument/semanticTokens/full/delta(101)
+I[10:03:26.277] --> reply:textDocument/semanticTokens/full/delta(101) 0 ms
+I[10:03:26.277] --> textDocument/clangd.fileStatus
+I[10:03:26.417] <-- textDocument/codeAction(102)
+I[10:03:26.418] --> reply:textDocument/codeAction(102) 0 ms
+I[10:03:26.418] --> textDocument/clangd.fileStatus
+I[10:03:26.422] <-- textDocument/documentSymbol(103)
+I[10:03:26.422] --> reply:textDocument/documentSymbol(103) 0 ms
+I[10:03:26.422] --> textDocument/clangd.fileStatus
+I[10:03:26.609] <-- textDocument/didChange
+I[10:03:26.610] --> textDocument/clangd.fileStatus
+I[10:03:26.610] <-- textDocument/completion(104)
+I[10:03:26.633] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:26.633] Code complete: 0 results from Sema, 25 from Index, 0 matched, 0 from identifiers, 25 returned (incomplete).
+I[10:03:26.635] --> reply:textDocument/completion(104) 24 ms
+I[10:03:26.660] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:26.661] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 49 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:26.663] --> textDocument/clangd.fileStatus
+I[10:03:26.663] --> textDocument/clangd.fileStatus
+I[10:03:26.664] --> textDocument/clangd.fileStatus
+I[10:03:26.675] --> textDocument/publishDiagnostics
+I[10:03:26.675] --> textDocument/clangd.fileStatus
+I[10:03:26.701] <-- textDocument/didChange
+I[10:03:26.702] --> textDocument/clangd.fileStatus
+I[10:03:26.702] <-- textDocument/completion(105)
+I[10:03:26.712] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:26.712] Code complete: 0 results from Sema, 2 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[10:03:26.712] --> reply:textDocument/completion(105) 9 ms
+I[10:03:26.752] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:26.752] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 50 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:26.754] --> textDocument/clangd.fileStatus
+I[10:03:26.754] --> textDocument/clangd.fileStatus
+I[10:03:26.755] --> textDocument/clangd.fileStatus
+I[10:03:26.762] --> textDocument/publishDiagnostics
+I[10:03:26.762] --> textDocument/clangd.fileStatus
+I[10:03:26.884] <-- textDocument/semanticTokens/full/delta(106)
+I[10:03:26.885] --> reply:textDocument/semanticTokens/full/delta(106) 0 ms
+I[10:03:26.885] --> textDocument/clangd.fileStatus
+I[10:03:26.978] <-- textDocument/documentLink(107)
+I[10:03:26.978] --> reply:textDocument/documentLink(107) 0 ms
+I[10:03:26.979] --> textDocument/clangd.fileStatus
+I[10:03:27.017] <-- textDocument/codeAction(108)
+I[10:03:27.017] --> reply:textDocument/codeAction(108) 0 ms
+I[10:03:27.018] --> textDocument/clangd.fileStatus
+I[10:03:27.049] <-- textDocument/documentSymbol(109)
+I[10:03:27.049] --> reply:textDocument/documentSymbol(109) 0 ms
+I[10:03:27.049] --> textDocument/clangd.fileStatus
+I[10:03:27.264] <-- textDocument/didChange
+I[10:03:27.265] --> textDocument/clangd.fileStatus
+I[10:03:27.265] <-- textDocument/completion(110)
+I[10:03:27.283] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:27.283] Code complete: 0 results from Sema, 25 from Index, 0 matched, 0 from identifiers, 25 returned (incomplete).
+I[10:03:27.284] --> reply:textDocument/completion(110) 18 ms
+I[10:03:27.315] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:27.316] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 51 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:27.320] --> textDocument/clangd.fileStatus
+I[10:03:27.320] --> textDocument/clangd.fileStatus
+I[10:03:27.321] --> textDocument/clangd.fileStatus
+I[10:03:27.334] --> textDocument/publishDiagnostics
+I[10:03:27.334] --> textDocument/clangd.fileStatus
+I[10:03:27.541] <-- textDocument/semanticTokens/full/delta(111)
+I[10:03:27.541] --> reply:textDocument/semanticTokens/full/delta(111) 0 ms
+I[10:03:27.541] --> textDocument/clangd.fileStatus
+I[10:03:27.588] <-- textDocument/didChange
+I[10:03:27.591] <-- textDocument/completion(112)
+I[10:03:27.591] --> textDocument/clangd.fileStatus
+I[10:03:27.607] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:27.607] Code complete: 10 results from Sema, 90 from Index, 1 matched, 0 from identifiers, 99 returned (incomplete).
+I[10:03:27.610] --> reply:textDocument/completion(112) 18 ms
+I[10:03:27.641] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:27.641] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 52 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:27.643] --> textDocument/clangd.fileStatus
+I[10:03:27.643] --> textDocument/clangd.fileStatus
+I[10:03:27.643] --> textDocument/clangd.fileStatus
+I[10:03:27.650] --> textDocument/publishDiagnostics
+I[10:03:27.650] --> textDocument/clangd.fileStatus
+I[10:03:27.715] <-- textDocument/didChange
+I[10:03:27.716] --> textDocument/clangd.fileStatus
+I[10:03:27.716] <-- textDocument/completion(113)
+I[10:03:27.722] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:27.722] Code complete: 5 results from Sema, 92 from Index, 1 matched, 0 from identifiers, 96 returned (incomplete).
+I[10:03:27.724] --> reply:textDocument/completion(113) 8 ms
+I[10:03:27.766] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:27.766] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 53 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:27.767] --> textDocument/clangd.fileStatus
+I[10:03:27.767] --> textDocument/clangd.fileStatus
+I[10:03:27.768] --> textDocument/clangd.fileStatus
+I[10:03:27.775] --> textDocument/publishDiagnostics
+I[10:03:27.775] --> textDocument/clangd.fileStatus
+I[10:03:27.868] <-- textDocument/semanticTokens/full/delta(114)
+I[10:03:27.869] --> reply:textDocument/semanticTokens/full/delta(114) 0 ms
+I[10:03:27.869] --> textDocument/clangd.fileStatus
+I[10:03:28.028] <-- textDocument/codeAction(115)
+I[10:03:28.028] --> reply:textDocument/codeAction(115) 0 ms
+I[10:03:28.028] --> textDocument/clangd.fileStatus
+I[10:03:28.061] <-- textDocument/documentSymbol(116)
+I[10:03:28.061] --> reply:textDocument/documentSymbol(116) 0 ms
+I[10:03:28.061] --> textDocument/clangd.fileStatus
+I[10:03:28.235] <-- textDocument/didChange
+I[10:03:28.236] <-- textDocument/completion(117)
+I[10:03:28.236] --> textDocument/clangd.fileStatus
+I[10:03:28.244] <-- textDocument/documentLink(118)
+I[10:03:28.244] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:28.245] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 54 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:28.246] --> textDocument/clangd.fileStatus
+I[10:03:28.247] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:28.247] Code complete: 1 results from Sema, 38 from Index, 1 matched, 0 from identifiers, 38 returned.
+I[10:03:28.248] --> reply:textDocument/completion(117) 12 ms
+I[10:03:28.256] --> reply:textDocument/documentLink(118) 11 ms
+I[10:03:28.256] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:28.256] --> textDocument/publishDiagnostics
+I[10:03:28.256] --> textDocument/clangd.fileStatus
+I[10:03:28.511] <-- textDocument/semanticTokens/full/delta(119)
+I[10:03:28.511] --> reply:textDocument/semanticTokens/full/delta(119) 0 ms
+I[10:03:28.511] --> textDocument/clangd.fileStatus
+I[10:03:28.523] <-- textDocument/codeAction(120)
+I[10:03:28.523] --> reply:textDocument/codeAction(120) 0 ms
+I[10:03:28.523] --> textDocument/clangd.fileStatus
+I[10:03:28.548] <-- textDocument/didChange
+I[10:03:28.550] --> textDocument/clangd.fileStatus
+I[10:03:28.600] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:28.600] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 55 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:28.604] --> textDocument/clangd.fileStatus
+I[10:03:28.604] --> textDocument/clangd.fileStatus
+I[10:03:28.606] --> textDocument/clangd.fileStatus
+I[10:03:28.625] --> textDocument/publishDiagnostics
+I[10:03:28.625] --> textDocument/clangd.fileStatus
+I[10:03:28.837] <-- textDocument/semanticTokens/full/delta(121)
+I[10:03:28.838] --> reply:textDocument/semanticTokens/full/delta(121) 0 ms
+I[10:03:28.838] --> textDocument/clangd.fileStatus
+I[10:03:28.880] <-- textDocument/codeAction(122)
+I[10:03:28.880] --> reply:textDocument/codeAction(122) 0 ms
+I[10:03:28.880] --> textDocument/clangd.fileStatus
+I[10:03:28.888] <-- textDocument/documentSymbol(123)
+I[10:03:28.889] --> reply:textDocument/documentSymbol(123) 0 ms
+I[10:03:28.889] --> textDocument/clangd.fileStatus
+I[10:03:29.476] <-- textDocument/didChange
+I[10:03:29.477] --> textDocument/clangd.fileStatus
+I[10:03:29.527] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:29.528] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 56 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:29.533] --> textDocument/clangd.fileStatus
+I[10:03:29.533] --> textDocument/clangd.fileStatus
+I[10:03:29.535] --> textDocument/clangd.fileStatus
+I[10:03:29.544] <-- textDocument/documentLink(124)
+I[10:03:29.559] --> textDocument/publishDiagnostics
+I[10:03:29.560] --> reply:textDocument/documentLink(124) 15 ms
+I[10:03:29.560] --> textDocument/clangd.fileStatus
+I[10:03:29.757] <-- textDocument/semanticTokens/full/delta(125)
+I[10:03:29.759] --> reply:textDocument/semanticTokens/full/delta(125) 1 ms
+I[10:03:29.759] --> textDocument/clangd.fileStatus
+I[10:03:29.808] <-- textDocument/documentSymbol(126)
+I[10:03:29.808] --> reply:textDocument/documentSymbol(126) 0 ms
+I[10:03:29.808] --> textDocument/clangd.fileStatus
+I[10:03:29.815] <-- textDocument/codeAction(127)
+I[10:03:29.815] --> reply:textDocument/codeAction(127) 0 ms
+I[10:03:29.815] --> textDocument/clangd.fileStatus
+I[10:03:30.100] <-- textDocument/didChange
+I[10:03:30.101] --> textDocument/clangd.fileStatus
+I[10:03:30.101] <-- textDocument/completion(128)
+I[10:03:30.101] --> reply:textDocument/completion(128) 0 ms
+I[10:03:30.151] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:30.151] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 57 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:30.154] --> textDocument/clangd.fileStatus
+I[10:03:30.154] --> textDocument/clangd.fileStatus
+I[10:03:30.155] --> textDocument/clangd.fileStatus
+I[10:03:30.169] --> textDocument/publishDiagnostics
+I[10:03:30.169] --> textDocument/clangd.fileStatus
+I[10:03:30.279] <-- textDocument/didChange
+I[10:03:30.279] <-- textDocument/completion(129)
+I[10:03:30.279] --> textDocument/clangd.fileStatus
+I[10:03:30.291] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:30.291] Code complete: 24 results from Sema, 98 from Index, 2 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:30.294] --> reply:textDocument/completion(129) 14 ms
+I[10:03:30.329] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:30.330] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 58 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:30.331] --> textDocument/clangd.fileStatus
+I[10:03:30.331] --> textDocument/clangd.fileStatus
+I[10:03:30.331] --> textDocument/clangd.fileStatus
+I[10:03:30.337] --> textDocument/publishDiagnostics
+I[10:03:30.337] --> textDocument/clangd.fileStatus
+I[10:03:30.379] <-- textDocument/semanticTokens/full/delta(130)
+I[10:03:30.379] --> reply:textDocument/semanticTokens/full/delta(130) 0 ms
+I[10:03:30.379] --> textDocument/clangd.fileStatus
+I[10:03:30.594] <-- textDocument/codeAction(131)
+I[10:03:30.594] --> reply:textDocument/codeAction(131) 0 ms
+I[10:03:30.594] --> textDocument/clangd.fileStatus
+I[10:03:30.600] <-- textDocument/documentSymbol(132)
+I[10:03:30.601] --> reply:textDocument/documentSymbol(132) 0 ms
+I[10:03:30.601] --> textDocument/clangd.fileStatus
+I[10:03:30.789] <-- textDocument/didChange
+I[10:03:30.790] --> textDocument/clangd.fileStatus
+I[10:03:30.790] <-- textDocument/completion(133)
+I[10:03:30.803] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:30.803] Code complete: 9 results from Sema, 30 from Index, 4 matched, 0 from identifiers, 35 returned (incomplete).
+I[10:03:30.805] --> reply:textDocument/completion(133) 15 ms
+I[10:03:30.840] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:30.840] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 59 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:30.842] --> textDocument/clangd.fileStatus
+I[10:03:30.842] --> textDocument/clangd.fileStatus
+I[10:03:30.843] --> textDocument/clangd.fileStatus
+I[10:03:30.862] --> textDocument/publishDiagnostics
+I[10:03:30.862] --> textDocument/clangd.fileStatus
+I[10:03:31.064] <-- textDocument/semanticTokens/full/delta(134)
+I[10:03:31.064] --> reply:textDocument/semanticTokens/full/delta(134) 0 ms
+I[10:03:31.064] --> textDocument/clangd.fileStatus
+I[10:03:31.081] <-- textDocument/documentLink(135)
+I[10:03:31.082] --> reply:textDocument/documentLink(135) 0 ms
+I[10:03:31.082] --> textDocument/clangd.fileStatus
+I[10:03:31.115] <-- textDocument/documentSymbol(136)
+I[10:03:31.115] --> reply:textDocument/documentSymbol(136) 0 ms
+I[10:03:31.115] --> textDocument/clangd.fileStatus
+I[10:03:31.116] <-- textDocument/codeAction(137)
+I[10:03:31.116] --> reply:textDocument/codeAction(137) 0 ms
+I[10:03:31.116] --> textDocument/clangd.fileStatus
+I[10:03:31.324] <-- textDocument/didChange
+I[10:03:31.326] <-- textDocument/completion(138)
+I[10:03:31.326] --> textDocument/clangd.fileStatus
+I[10:03:31.344] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:31.344] Code complete: 6 results from Sema, 16 from Index, 2 matched, 0 from identifiers, 20 returned (incomplete).
+I[10:03:31.345] --> reply:textDocument/completion(138) 19 ms
+I[10:03:31.376] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:31.376] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 60 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:31.377] --> textDocument/clangd.fileStatus
+I[10:03:31.378] --> textDocument/clangd.fileStatus
+I[10:03:31.378] --> textDocument/clangd.fileStatus
+I[10:03:31.397] --> textDocument/publishDiagnostics
+I[10:03:31.397] --> textDocument/clangd.fileStatus
+I[10:03:31.616] <-- textDocument/semanticTokens/full/delta(139)
+I[10:03:31.616] --> reply:textDocument/semanticTokens/full/delta(139) 0 ms
+I[10:03:31.616] --> textDocument/clangd.fileStatus
+I[10:03:31.653] <-- textDocument/codeAction(140)
+I[10:03:31.653] --> reply:textDocument/codeAction(140) 0 ms
+I[10:03:31.653] --> textDocument/clangd.fileStatus
+I[10:03:31.667] <-- textDocument/documentSymbol(141)
+I[10:03:31.667] --> reply:textDocument/documentSymbol(141) 0 ms
+I[10:03:31.667] --> textDocument/clangd.fileStatus
+I[10:03:31.751] <-- textDocument/didChange
+I[10:03:31.752] <-- textDocument/completion(142)
+I[10:03:31.752] --> textDocument/clangd.fileStatus
+I[10:03:31.761] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:31.762] Code complete: 1 results from Sema, 3 from Index, 1 matched, 0 from identifiers, 3 returned.
+I[10:03:31.762] --> reply:textDocument/completion(142) 10 ms
+I[10:03:31.802] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:31.803] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 61 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:31.809] --> textDocument/clangd.fileStatus
+I[10:03:31.809] --> textDocument/clangd.fileStatus
+I[10:03:31.811] --> textDocument/clangd.fileStatus
+I[10:03:31.841] --> textDocument/publishDiagnostics
+I[10:03:31.841] --> textDocument/clangd.fileStatus
+I[10:03:32.030] <-- textDocument/semanticTokens/full/delta(143)
+I[10:03:32.031] --> reply:textDocument/semanticTokens/full/delta(143) 0 ms
+I[10:03:32.031] --> textDocument/clangd.fileStatus
+I[10:03:32.075] <-- textDocument/didChange
+I[10:03:32.076] --> textDocument/clangd.fileStatus
+I[10:03:32.076] <-- textDocument/completion(144)
+I[10:03:32.086] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:32.086] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[10:03:32.086] --> reply:textDocument/completion(144) 10 ms
+I[10:03:32.126] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:32.127] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 62 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:32.129] --> textDocument/clangd.fileStatus
+I[10:03:32.129] --> textDocument/clangd.fileStatus
+I[10:03:32.130] --> textDocument/clangd.fileStatus
+I[10:03:32.141] --> textDocument/publishDiagnostics
+I[10:03:32.141] --> textDocument/clangd.fileStatus
+I[10:03:32.317] <-- textDocument/documentLink(145)
+I[10:03:32.318] --> reply:textDocument/documentLink(145) 0 ms
+I[10:03:32.318] --> textDocument/clangd.fileStatus
+I[10:03:32.366] <-- textDocument/semanticTokens/full/delta(146)
+I[10:03:32.366] --> reply:textDocument/semanticTokens/full/delta(146) 0 ms
+I[10:03:32.366] --> textDocument/clangd.fileStatus
+I[10:03:32.398] <-- textDocument/codeAction(147)
+I[10:03:32.399] --> reply:textDocument/codeAction(147) 0 ms
+I[10:03:32.399] --> textDocument/clangd.fileStatus
+I[10:03:32.416] <-- textDocument/documentSymbol(148)
+I[10:03:32.417] --> reply:textDocument/documentSymbol(148) 0 ms
+I[10:03:32.417] --> textDocument/clangd.fileStatus
+I[10:03:32.463] <-- textDocument/didChange
+I[10:03:32.464] --> textDocument/clangd.fileStatus
+I[10:03:32.514] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:32.515] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 63 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:32.520] --> textDocument/clangd.fileStatus
+I[10:03:32.520] --> textDocument/clangd.fileStatus
+I[10:03:32.522] --> textDocument/clangd.fileStatus
+I[10:03:32.548] --> textDocument/publishDiagnostics
+I[10:03:32.548] --> textDocument/clangd.fileStatus
+I[10:03:32.757] <-- textDocument/semanticTokens/full/delta(149)
+I[10:03:32.758] --> reply:textDocument/semanticTokens/full/delta(149) 0 ms
+I[10:03:32.758] --> textDocument/clangd.fileStatus
+I[10:03:32.808] <-- textDocument/documentSymbol(150)
+I[10:03:32.808] --> reply:textDocument/documentSymbol(150) 0 ms
+I[10:03:32.808] --> textDocument/clangd.fileStatus
+I[10:03:33.467] <-- textDocument/didChange
+I[10:03:33.468] --> textDocument/clangd.fileStatus
+I[10:03:33.468] <-- textDocument/completion(151)
+I[10:03:33.468] --> reply:textDocument/completion(151) 0 ms
+I[10:03:33.468] <-- textDocument/documentLink(152)
+I[10:03:33.468] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:33.469] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 64 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:33.472] --> textDocument/clangd.fileStatus
+I[10:03:33.490] --> reply:textDocument/documentLink(152) 21 ms
+I[10:03:33.490] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:33.490] --> textDocument/publishDiagnostics
+I[10:03:33.490] --> textDocument/clangd.fileStatus
+I[10:03:33.637] <-- textDocument/didChange
+I[10:03:33.639] --> textDocument/clangd.fileStatus
+I[10:03:33.639] <-- textDocument/completion(153)
+I[10:03:33.639] --> reply:textDocument/completion(153) 0 ms
+I[10:03:33.689] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:33.690] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 65 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:33.696] --> textDocument/clangd.fileStatus
+I[10:03:33.696] --> textDocument/clangd.fileStatus
+I[10:03:33.698] --> textDocument/clangd.fileStatus
+I[10:03:33.722] --> textDocument/publishDiagnostics
+I[10:03:33.722] --> textDocument/clangd.fileStatus
+I[10:03:33.743] <-- textDocument/semanticTokens/full/delta(154)
+I[10:03:33.743] --> reply:textDocument/semanticTokens/full/delta(154) 0 ms
+I[10:03:33.743] --> textDocument/clangd.fileStatus
+I[10:03:33.783] <-- textDocument/didChange
+I[10:03:33.785] --> textDocument/clangd.fileStatus
+I[10:03:33.835] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:33.836] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 66 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:33.841] --> textDocument/clangd.fileStatus
+I[10:03:33.841] --> textDocument/clangd.fileStatus
+I[10:03:33.843] --> textDocument/clangd.fileStatus
+I[10:03:33.868] --> textDocument/publishDiagnostics
+I[10:03:33.868] --> textDocument/clangd.fileStatus
+I[10:03:34.081] <-- textDocument/semanticTokens/full/delta(155)
+I[10:03:34.081] --> reply:textDocument/semanticTokens/full/delta(155) 0 ms
+I[10:03:34.081] --> textDocument/clangd.fileStatus
+I[10:03:34.133] <-- textDocument/documentSymbol(156)
+I[10:03:34.133] --> reply:textDocument/documentSymbol(156) 0 ms
+I[10:03:34.133] --> textDocument/clangd.fileStatus
+I[10:03:34.437] <-- textDocument/didChange
+I[10:03:34.438] <-- textDocument/completion(157)
+I[10:03:34.438] --> reply:textDocument/completion(157) 0 ms
+I[10:03:34.438] --> textDocument/clangd.fileStatus
+I[10:03:34.488] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:34.489] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 67 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:34.494] --> textDocument/clangd.fileStatus
+I[10:03:34.494] --> textDocument/clangd.fileStatus
+I[10:03:34.496] --> textDocument/clangd.fileStatus
+I[10:03:34.518] --> textDocument/publishDiagnostics
+I[10:03:34.519] --> textDocument/clangd.fileStatus
+I[10:03:34.611] <-- textDocument/documentLink(158)
+I[10:03:34.611] --> reply:textDocument/documentLink(158) 0 ms
+I[10:03:34.612] --> textDocument/clangd.fileStatus
+I[10:03:34.712] <-- textDocument/semanticTokens/full/delta(159)
+I[10:03:34.713] --> reply:textDocument/semanticTokens/full/delta(159) 0 ms
+I[10:03:34.713] --> textDocument/clangd.fileStatus
+I[10:03:34.763] <-- textDocument/documentSymbol(160)
+I[10:03:34.765] --> reply:textDocument/documentSymbol(160) 1 ms
+I[10:03:34.765] --> textDocument/clangd.fileStatus
+I[10:03:34.776] <-- textDocument/codeAction(161)
+I[10:03:34.776] --> reply:textDocument/codeAction(161) 0 ms
+I[10:03:34.776] --> textDocument/clangd.fileStatus
+I[10:03:35.817] <-- textDocument/didChange
+I[10:03:35.817] --> textDocument/clangd.fileStatus
+I[10:03:35.818] <-- textDocument/didSave
+I[10:03:35.818] --> textDocument/clangd.fileStatus
+I[10:03:35.868] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:35.869] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 68 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:35.874] --> textDocument/clangd.fileStatus
+I[10:03:35.874] --> textDocument/clangd.fileStatus
+I[10:03:35.876] --> textDocument/clangd.fileStatus
+I[10:03:35.897] --> textDocument/publishDiagnostics
+I[10:03:35.897] --> textDocument/clangd.fileStatus
+I[10:03:36.108] <-- textDocument/semanticTokens/full/delta(162)
+I[10:03:36.109] --> reply:textDocument/semanticTokens/full/delta(162) 0 ms
+I[10:03:36.109] --> textDocument/clangd.fileStatus
+I[10:03:36.160] <-- textDocument/documentSymbol(163)
+I[10:03:36.160] --> reply:textDocument/documentSymbol(163) 0 ms
+I[10:03:36.160] --> textDocument/clangd.fileStatus
+I[10:03:36.811] <-- textDocument/documentLink(164)
+I[10:03:36.812] --> reply:textDocument/documentLink(164) 0 ms
+I[10:03:36.812] --> textDocument/clangd.fileStatus
+I[10:03:36.848] <-- textDocument/didChange
+I[10:03:36.849] --> textDocument/clangd.fileStatus
+I[10:03:36.874] <-- textDocument/completion(165)
+I[10:03:36.875] <-- textDocument/didSave
+I[10:03:36.876] --> textDocument/clangd.fileStatus
+I[10:03:36.882] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:36.882] Code complete: 1 results from Sema, 11 from Index, 0 matched, 0 from identifiers, 12 returned (incomplete).
+I[10:03:36.883] --> reply:textDocument/completion(165) 8 ms
+I[10:03:36.926] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:36.926] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 69 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:36.927] --> textDocument/clangd.fileStatus
+I[10:03:36.927] --> textDocument/clangd.fileStatus
+I[10:03:36.928] --> textDocument/clangd.fileStatus
+I[10:03:36.935] --> textDocument/publishDiagnostics
+I[10:03:36.935] --> textDocument/clangd.fileStatus
+I[10:03:37.036] <-- textDocument/didChange
+I[10:03:37.037] --> textDocument/clangd.fileStatus
+I[10:03:37.037] <-- textDocument/completion(166)
+I[10:03:37.050] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:37.050] Code complete: 1 results from Sema, 2 from Index, 0 matched, 0 from identifiers, 3 returned (incomplete).
+I[10:03:37.050] --> reply:textDocument/completion(166) 12 ms
+I[10:03:37.087] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:37.088] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 70 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:37.091] --> textDocument/clangd.fileStatus
+I[10:03:37.091] --> textDocument/clangd.fileStatus
+I[10:03:37.092] --> textDocument/clangd.fileStatus
+I[10:03:37.106] --> textDocument/publishDiagnostics
+I[10:03:37.106] --> textDocument/clangd.fileStatus
+I[10:03:37.142] <-- textDocument/semanticTokens/full/delta(167)
+I[10:03:37.143] --> reply:textDocument/semanticTokens/full/delta(167) 0 ms
+I[10:03:37.143] --> textDocument/clangd.fileStatus
+I[10:03:37.209] <-- textDocument/didChange
+I[10:03:37.210] <-- textDocument/completion(168)
+I[10:03:37.210] --> textDocument/clangd.fileStatus
+I[10:03:37.223] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:37.223] Code complete: 1 results from Sema, 15 from Index, 0 matched, 0 from identifiers, 16 returned.
+I[10:03:37.224] --> reply:textDocument/completion(168) 13 ms
+I[10:03:37.260] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:37.261] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 71 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:37.263] --> textDocument/clangd.fileStatus
+I[10:03:37.263] --> textDocument/clangd.fileStatus
+I[10:03:37.263] --> textDocument/clangd.fileStatus
+I[10:03:37.272] --> textDocument/publishDiagnostics
+I[10:03:37.272] --> textDocument/clangd.fileStatus
+I[10:03:37.320] <-- textDocument/didChange
+I[10:03:37.321] <-- textDocument/completion(169)
+I[10:03:37.321] --> textDocument/clangd.fileStatus
+I[10:03:37.328] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:37.328] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[10:03:37.328] --> reply:textDocument/completion(169) 6 ms
+I[10:03:37.371] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:37.371] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 72 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:37.373] --> textDocument/clangd.fileStatus
+I[10:03:37.373] --> textDocument/clangd.fileStatus
+I[10:03:37.374] --> textDocument/clangd.fileStatus
+I[10:03:37.382] --> textDocument/publishDiagnostics
+I[10:03:37.382] --> textDocument/clangd.fileStatus
+I[10:03:37.503] <-- textDocument/semanticTokens/full/delta(170)
+I[10:03:37.503] --> reply:textDocument/semanticTokens/full/delta(170) 0 ms
+I[10:03:37.503] --> textDocument/clangd.fileStatus
+I[10:03:37.638] <-- textDocument/codeAction(171)
+I[10:03:37.638] --> reply:textDocument/codeAction(171) 0 ms
+I[10:03:37.638] --> textDocument/clangd.fileStatus
+I[10:03:37.669] <-- textDocument/documentSymbol(172)
+I[10:03:37.670] --> reply:textDocument/documentSymbol(172) 0 ms
+I[10:03:37.670] --> textDocument/clangd.fileStatus
+I[10:03:37.812] <-- textDocument/didChange
+I[10:03:37.813] --> textDocument/clangd.fileStatus
+I[10:03:37.813] <-- textDocument/completion(173)
+I[10:03:37.825] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:37.825] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[10:03:37.825] --> reply:textDocument/completion(173) 12 ms
+I[10:03:37.846] <-- textDocument/documentLink(174)
+I[10:03:37.847] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:37.847] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 73 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:37.849] --> textDocument/clangd.fileStatus
+I[10:03:37.862] --> reply:textDocument/documentLink(174) 15 ms
+I[10:03:37.862] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:37.862] --> textDocument/publishDiagnostics
+I[10:03:37.862] --> textDocument/clangd.fileStatus
+I[10:03:38.054] <-- textDocument/didChange
+I[10:03:38.054] --> textDocument/clangd.fileStatus
+I[10:03:38.085] <-- textDocument/semanticTokens/full/delta(175)
+I[10:03:38.085] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:38.085] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 74 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:38.086] --> textDocument/clangd.fileStatus
+I[10:03:38.094] --> reply:textDocument/semanticTokens/full/delta(175) 9 ms
+I[10:03:38.094] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:38.095] --> textDocument/publishDiagnostics
+I[10:03:38.095] --> textDocument/clangd.fileStatus
+I[10:03:38.387] <-- textDocument/documentSymbol(176)
+I[10:03:38.387] --> reply:textDocument/documentSymbol(176) 0 ms
+I[10:03:38.387] --> textDocument/clangd.fileStatus
+I[10:03:38.409] <-- textDocument/didChange
+I[10:03:38.411] --> textDocument/clangd.fileStatus
+I[10:03:38.411] <-- textDocument/completion(177)
+I[10:03:38.411] --> reply:textDocument/completion(177) 0 ms
+I[10:03:38.461] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:38.461] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 75 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:38.464] --> textDocument/clangd.fileStatus
+I[10:03:38.464] --> textDocument/clangd.fileStatus
+I[10:03:38.465] --> textDocument/clangd.fileStatus
+I[10:03:38.479] --> textDocument/publishDiagnostics
+I[10:03:38.479] --> textDocument/clangd.fileStatus
+I[10:03:38.578] <-- textDocument/didChange
+I[10:03:38.579] --> textDocument/clangd.fileStatus
+I[10:03:38.580] <-- textDocument/completion(178)
+I[10:03:38.580] --> reply:textDocument/completion(178) 0 ms
+I[10:03:38.630] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:38.630] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 76 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:38.631] --> textDocument/clangd.fileStatus
+I[10:03:38.632] --> textDocument/clangd.fileStatus
+I[10:03:38.632] --> textDocument/clangd.fileStatus
+I[10:03:38.642] --> textDocument/publishDiagnostics
+I[10:03:38.642] --> textDocument/clangd.fileStatus
+I[10:03:38.702] <-- textDocument/semanticTokens/full/delta(179)
+I[10:03:38.702] --> reply:textDocument/semanticTokens/full/delta(179) 0 ms
+I[10:03:38.702] --> textDocument/clangd.fileStatus
+I[10:03:38.760] <-- textDocument/didChange
+I[10:03:38.761] --> textDocument/clangd.fileStatus
+I[10:03:38.811] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:38.812] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 77 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:38.817] --> textDocument/clangd.fileStatus
+I[10:03:38.817] --> textDocument/clangd.fileStatus
+I[10:03:38.819] --> textDocument/clangd.fileStatus
+I[10:03:38.847] --> textDocument/publishDiagnostics
+I[10:03:38.847] --> textDocument/clangd.fileStatus
+I[10:03:39.037] <-- textDocument/documentLink(180)
+I[10:03:39.037] --> reply:textDocument/documentLink(180) 0 ms
+I[10:03:39.039] --> textDocument/clangd.fileStatus
+I[10:03:39.054] <-- textDocument/semanticTokens/full/delta(181)
+I[10:03:39.054] --> reply:textDocument/semanticTokens/full/delta(181) 0 ms
+I[10:03:39.054] --> textDocument/clangd.fileStatus
+I[10:03:39.105] <-- textDocument/documentSymbol(182)
+I[10:03:39.105] --> reply:textDocument/documentSymbol(182) 0 ms
+I[10:03:39.105] --> textDocument/clangd.fileStatus
+I[10:03:39.368] <-- textDocument/didChange
+I[10:03:39.373] --> textDocument/clangd.fileStatus
+I[10:03:39.382] <-- textDocument/completion(183)
+I[10:03:39.394] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:39.395] Code complete: 7 results from Sema, 90 from Index, 1 matched, 0 from identifiers, 96 returned (incomplete).
+I[10:03:39.397] --> reply:textDocument/completion(183) 14 ms
+I[10:03:39.420] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:39.420] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 78 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:39.422] --> textDocument/clangd.fileStatus
+I[10:03:39.422] --> textDocument/clangd.fileStatus
+I[10:03:39.422] --> textDocument/clangd.fileStatus
+I[10:03:39.430] --> textDocument/publishDiagnostics
+I[10:03:39.430] --> textDocument/clangd.fileStatus
+I[10:03:39.656] <-- textDocument/didChange
+I[10:03:39.657] --> textDocument/clangd.fileStatus
+I[10:03:39.657] <-- textDocument/completion(184)
+I[10:03:39.657] <-- textDocument/semanticTokens/full/delta(185)
+I[10:03:39.657] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:39.657] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 79 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:39.660] --> textDocument/clangd.fileStatus
+I[10:03:39.667] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:39.667] Code complete: 0 results from Sema, 25 from Index, 0 matched, 0 from identifiers, 25 returned (incomplete).
+I[10:03:39.668] --> reply:textDocument/completion(184) 10 ms
+I[10:03:39.672] --> reply:textDocument/semanticTokens/full/delta(185) 14 ms
+I[10:03:39.672] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:39.672] --> textDocument/publishDiagnostics
+I[10:03:39.672] --> textDocument/clangd.fileStatus
+I[10:03:39.943] <-- textDocument/codeAction(186)
+I[10:03:39.945] --> reply:textDocument/codeAction(186) 1 ms
+I[10:03:39.945] --> textDocument/clangd.fileStatus
+I[10:03:39.985] <-- textDocument/documentSymbol(187)
+I[10:03:39.985] --> reply:textDocument/documentSymbol(187) 0 ms
+I[10:03:39.985] --> textDocument/clangd.fileStatus
+I[10:03:40.088] <-- textDocument/didChange
+I[10:03:40.089] --> textDocument/clangd.fileStatus
+I[10:03:40.089] <-- textDocument/completion(188)
+I[10:03:40.107] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:40.108] Code complete: 7 results from Sema, 90 from Index, 1 matched, 0 from identifiers, 96 returned (incomplete).
+I[10:03:40.110] --> reply:textDocument/completion(188) 20 ms
+I[10:03:40.139] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:40.140] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 80 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:40.141] --> textDocument/clangd.fileStatus
+I[10:03:40.141] --> textDocument/clangd.fileStatus
+I[10:03:40.141] --> textDocument/clangd.fileStatus
+I[10:03:40.149] --> textDocument/publishDiagnostics
+I[10:03:40.149] --> textDocument/clangd.fileStatus
+I[10:03:40.164] <-- textDocument/didChange
+I[10:03:40.164] <-- textDocument/completion(189)
+I[10:03:40.164] --> textDocument/clangd.fileStatus
+I[10:03:40.170] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:40.170] Code complete: 0 results from Sema, 13 from Index, 0 matched, 0 from identifiers, 13 returned (incomplete).
+I[10:03:40.171] --> reply:textDocument/completion(189) 6 ms
+I[10:03:40.214] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:40.215] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 81 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:40.220] --> textDocument/clangd.fileStatus
+I[10:03:40.220] --> textDocument/clangd.fileStatus
+I[10:03:40.222] --> textDocument/clangd.fileStatus
+I[10:03:40.245] --> textDocument/publishDiagnostics
+I[10:03:40.245] --> textDocument/clangd.fileStatus
+I[10:03:40.347] <-- textDocument/documentLink(190)
+I[10:03:40.347] --> reply:textDocument/documentLink(190) 0 ms
+I[10:03:40.347] --> textDocument/clangd.fileStatus
+I[10:03:40.367] <-- textDocument/semanticTokens/full/delta(191)
+I[10:03:40.367] --> reply:textDocument/semanticTokens/full/delta(191) 0 ms
+I[10:03:40.367] --> textDocument/clangd.fileStatus
+I[10:03:40.392] <-- textDocument/didChange
+I[10:03:40.394] <-- textDocument/completion(192)
+I[10:03:40.394] --> textDocument/clangd.fileStatus
+I[10:03:40.410] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:40.410] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[10:03:40.410] --> reply:textDocument/completion(192) 15 ms
+I[10:03:40.444] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:40.445] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 82 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:40.450] --> textDocument/clangd.fileStatus
+I[10:03:40.450] --> textDocument/clangd.fileStatus
+I[10:03:40.452] --> textDocument/clangd.fileStatus
+I[10:03:40.481] --> textDocument/publishDiagnostics
+I[10:03:40.481] --> textDocument/clangd.fileStatus
+I[10:03:40.686] <-- textDocument/semanticTokens/full/delta(193)
+I[10:03:40.686] --> reply:textDocument/semanticTokens/full/delta(193) 0 ms
+I[10:03:40.686] --> textDocument/clangd.fileStatus
+I[10:03:40.736] <-- textDocument/codeAction(194)
+I[10:03:40.736] --> reply:textDocument/codeAction(194) 0 ms
+I[10:03:40.736] --> textDocument/clangd.fileStatus
+I[10:03:40.736] <-- textDocument/documentSymbol(195)
+I[10:03:40.736] --> reply:textDocument/documentSymbol(195) 0 ms
+I[10:03:40.736] --> textDocument/clangd.fileStatus
+I[10:03:40.796] <-- textDocument/didChange
+I[10:03:40.798] --> textDocument/clangd.fileStatus
+I[10:03:40.848] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:40.849] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 83 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:40.851] --> textDocument/clangd.fileStatus
+I[10:03:40.851] --> textDocument/clangd.fileStatus
+I[10:03:40.852] --> textDocument/clangd.fileStatus
+I[10:03:40.867] --> textDocument/publishDiagnostics
+I[10:03:40.868] --> textDocument/clangd.fileStatus
+I[10:03:40.908] <-- textDocument/didChange
+I[10:03:40.909] --> textDocument/clangd.fileStatus
+I[10:03:40.960] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:40.960] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 84 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:40.966] --> textDocument/clangd.fileStatus
+I[10:03:40.966] --> textDocument/clangd.fileStatus
+I[10:03:40.968] --> textDocument/clangd.fileStatus
+I[10:03:40.982] <-- textDocument/didChange
+I[10:03:40.993] --> textDocument/publishDiagnostics
+I[10:03:40.993] --> textDocument/clangd.fileStatus
+I[10:03:41.005] <-- textDocument/completion(196)
+I[10:03:41.015] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:41.015] Code complete: 3 results from Sema, 92 from Index, 1 matched, 0 from identifiers, 94 returned (incomplete).
+I[10:03:41.017] --> reply:textDocument/completion(196) 11 ms
+I[10:03:41.033] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:41.033] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 85 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:41.034] --> textDocument/clangd.fileStatus
+I[10:03:41.034] --> textDocument/clangd.fileStatus
+I[10:03:41.035] --> textDocument/clangd.fileStatus
+I[10:03:41.044] --> textDocument/publishDiagnostics
+I[10:03:41.044] --> textDocument/clangd.fileStatus
+I[10:03:41.092] <-- textDocument/semanticTokens/full/delta(197)
+I[10:03:41.092] --> reply:textDocument/semanticTokens/full/delta(197) 0 ms
+I[10:03:41.092] --> textDocument/clangd.fileStatus
+I[10:03:41.244] <-- textDocument/didChange
+I[10:03:41.245] <-- textDocument/completion(198)
+I[10:03:41.245] --> textDocument/clangd.fileStatus
+I[10:03:41.256] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:41.256] Code complete: 0 results from Sema, 12 from Index, 0 matched, 0 from identifiers, 12 returned.
+I[10:03:41.256] --> reply:textDocument/completion(198) 11 ms
+I[10:03:41.295] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:41.296] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 86 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:41.298] --> textDocument/clangd.fileStatus
+I[10:03:41.298] --> textDocument/clangd.fileStatus
+I[10:03:41.298] --> textDocument/clangd.fileStatus
+I[10:03:41.311] --> textDocument/publishDiagnostics
+I[10:03:41.311] --> textDocument/clangd.fileStatus
+I[10:03:41.388] <-- textDocument/documentLink(199)
+I[10:03:41.388] --> reply:textDocument/documentLink(199) 0 ms
+I[10:03:41.388] --> textDocument/clangd.fileStatus
+I[10:03:41.515] <-- textDocument/didChange
+I[10:03:41.515] <-- textDocument/completion(200)
+I[10:03:41.515] --> reply:textDocument/completion(200) 0 ms
+I[10:03:41.515] --> textDocument/clangd.fileStatus
+I[10:03:41.517] <-- textDocument/semanticTokens/full/delta(201)
+I[10:03:41.517] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:41.517] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 87 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:41.520] --> textDocument/clangd.fileStatus
+I[10:03:41.531] --> reply:textDocument/semanticTokens/full/delta(201) 13 ms
+I[10:03:41.531] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:41.531] --> textDocument/publishDiagnostics
+I[10:03:41.531] --> textDocument/clangd.fileStatus
+I[10:03:41.785] <-- textDocument/codeAction(202)
+I[10:03:41.786] --> reply:textDocument/codeAction(202) 0 ms
+I[10:03:41.786] --> textDocument/clangd.fileStatus
+I[10:03:41.833] <-- textDocument/documentSymbol(203)
+I[10:03:41.833] --> reply:textDocument/documentSymbol(203) 0 ms
+I[10:03:41.833] --> textDocument/clangd.fileStatus
+I[10:03:42.205] <-- textDocument/didChange
+I[10:03:42.206] --> textDocument/clangd.fileStatus
+I[10:03:42.256] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:42.256] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 88 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:42.261] --> textDocument/clangd.fileStatus
+I[10:03:42.261] --> textDocument/clangd.fileStatus
+I[10:03:42.263] --> textDocument/clangd.fileStatus
+I[10:03:42.286] --> textDocument/publishDiagnostics
+I[10:03:42.287] --> textDocument/clangd.fileStatus
+I[10:03:42.328] <-- textDocument/didChange
+I[10:03:42.329] --> textDocument/clangd.fileStatus
+I[10:03:42.379] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:42.379] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 89 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:42.381] --> textDocument/clangd.fileStatus
+I[10:03:42.381] --> textDocument/clangd.fileStatus
+I[10:03:42.382] --> textDocument/clangd.fileStatus
+I[10:03:42.395] --> textDocument/publishDiagnostics
+I[10:03:42.395] --> textDocument/clangd.fileStatus
+I[10:03:42.483] <-- textDocument/documentLink(204)
+I[10:03:42.483] --> reply:textDocument/documentLink(204) 0 ms
+I[10:03:42.483] --> textDocument/clangd.fileStatus
+I[10:03:42.500] <-- textDocument/semanticTokens/full/delta(205)
+I[10:03:42.501] --> reply:textDocument/semanticTokens/full/delta(205) 0 ms
+I[10:03:42.501] --> textDocument/clangd.fileStatus
+I[10:03:42.605] <-- textDocument/didChange
+I[10:03:42.605] --> textDocument/clangd.fileStatus
+I[10:03:42.613] <-- textDocument/completion(206)
+I[10:03:42.623] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[10:03:42.623] Code complete: 1 results from Sema, 38 from Index, 1 matched, 0 from identifiers, 38 returned.
+I[10:03:42.625] --> reply:textDocument/completion(206) 11 ms
+I[10:03:42.655] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:42.655] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 90 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:42.657] --> textDocument/clangd.fileStatus
+I[10:03:42.657] --> textDocument/clangd.fileStatus
+I[10:03:42.657] --> textDocument/clangd.fileStatus
+I[10:03:42.664] --> textDocument/publishDiagnostics
+I[10:03:42.664] --> textDocument/clangd.fileStatus
+I[10:03:42.879] <-- textDocument/semanticTokens/full/delta(207)
+I[10:03:42.879] --> reply:textDocument/semanticTokens/full/delta(207) 0 ms
+I[10:03:42.879] --> textDocument/clangd.fileStatus
+I[10:03:42.911] <-- textDocument/didChange
+I[10:03:42.912] --> textDocument/clangd.fileStatus
+I[10:03:42.912] <-- textDocument/completion(208)
+I[10:03:42.912] --> reply:textDocument/completion(208) 0 ms
+I[10:03:42.962] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:42.962] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 91 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:42.967] --> textDocument/clangd.fileStatus
+I[10:03:42.967] --> textDocument/clangd.fileStatus
+I[10:03:42.969] --> textDocument/clangd.fileStatus
+I[10:03:42.996] --> textDocument/publishDiagnostics
+I[10:03:42.997] --> textDocument/clangd.fileStatus
+I[10:03:43.190] <-- textDocument/semanticTokens/full/delta(209)
+I[10:03:43.190] --> reply:textDocument/semanticTokens/full/delta(209) 0 ms
+I[10:03:43.190] --> textDocument/clangd.fileStatus
+I[10:03:43.241] <-- textDocument/documentSymbol(210)
+I[10:03:43.241] --> reply:textDocument/documentSymbol(210) 0 ms
+I[10:03:43.241] --> textDocument/clangd.fileStatus
+I[10:03:43.251] <-- textDocument/codeAction(211)
+I[10:03:43.252] --> reply:textDocument/codeAction(211) 0 ms
+I[10:03:43.252] --> textDocument/clangd.fileStatus
+I[10:03:43.580] <-- textDocument/documentLink(212)
+I[10:03:43.581] --> reply:textDocument/documentLink(212) 0 ms
+I[10:03:43.581] --> textDocument/clangd.fileStatus
+I[10:03:43.818] <-- textDocument/didChange
+I[10:03:43.819] --> textDocument/clangd.fileStatus
+I[10:03:43.819] <-- textDocument/completion(213)
+I[10:03:43.828] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:43.829] Code complete: 24 results from Sema, 98 from Index, 2 matched, 0 from identifiers, 100 returned (incomplete).
+I[10:03:43.830] --> reply:textDocument/completion(213) 11 ms
+I[10:03:43.869] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:43.869] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 92 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:43.871] --> textDocument/clangd.fileStatus
+I[10:03:43.871] --> textDocument/clangd.fileStatus
+I[10:03:43.872] --> textDocument/clangd.fileStatus
+I[10:03:43.879] --> textDocument/publishDiagnostics
+I[10:03:43.879] --> textDocument/clangd.fileStatus
+I[10:03:44.085] <-- textDocument/semanticTokens/full/delta(214)
+I[10:03:44.085] --> reply:textDocument/semanticTokens/full/delta(214) 0 ms
+I[10:03:44.086] --> textDocument/clangd.fileStatus
+I[10:03:44.133] <-- textDocument/codeAction(215)
+I[10:03:44.133] --> reply:textDocument/codeAction(215) 0 ms
+I[10:03:44.133] --> textDocument/clangd.fileStatus
+I[10:03:44.137] <-- textDocument/documentSymbol(216)
+I[10:03:44.137] --> reply:textDocument/documentSymbol(216) 0 ms
+I[10:03:44.137] --> textDocument/clangd.fileStatus
+I[10:03:44.432] <-- textDocument/didChange
+I[10:03:44.433] <-- textDocument/completion(217)
+I[10:03:44.433] --> textDocument/clangd.fileStatus
+I[10:03:44.442] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:44.442] Code complete: 5 results from Sema, 15 from Index, 3 matched, 0 from identifiers, 17 returned (incomplete).
+I[10:03:44.442] --> reply:textDocument/completion(217) 9 ms
+I[10:03:44.483] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:44.483] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 93 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:44.484] --> textDocument/clangd.fileStatus
+I[10:03:44.484] --> textDocument/clangd.fileStatus
+I[10:03:44.485] --> textDocument/clangd.fileStatus
+I[10:03:44.504] --> textDocument/publishDiagnostics
+I[10:03:44.504] --> textDocument/clangd.fileStatus
+I[10:03:44.618] <-- textDocument/didChange
+I[10:03:44.620] --> textDocument/clangd.fileStatus
+I[10:03:44.620] <-- textDocument/completion(218)
+I[10:03:44.639] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:44.639] Code complete: 3 results from Sema, 5 from Index, 2 matched, 0 from identifiers, 6 returned (incomplete).
+I[10:03:44.640] --> reply:textDocument/completion(218) 19 ms
+I[10:03:44.670] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:44.671] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 94 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:44.672] --> textDocument/clangd.fileStatus
+I[10:03:44.672] --> textDocument/clangd.fileStatus
+I[10:03:44.673] --> textDocument/clangd.fileStatus
+I[10:03:44.695] --> textDocument/publishDiagnostics
+I[10:03:44.696] --> textDocument/clangd.fileStatus
+I[10:03:44.711] <-- textDocument/semanticTokens/full/delta(219)
+I[10:03:44.712] --> reply:textDocument/semanticTokens/full/delta(219) 0 ms
+I[10:03:44.712] --> textDocument/clangd.fileStatus
+I[10:03:44.787] <-- textDocument/documentLink(220)
+I[10:03:44.787] --> reply:textDocument/documentLink(220) 0 ms
+I[10:03:44.787] --> textDocument/clangd.fileStatus
+I[10:03:44.945] <-- textDocument/documentSymbol(221)
+I[10:03:44.947] --> reply:textDocument/documentSymbol(221) 1 ms
+I[10:03:44.947] --> textDocument/clangd.fileStatus
+I[10:03:44.950] <-- textDocument/codeAction(222)
+I[10:03:44.950] --> reply:textDocument/codeAction(222) 0 ms
+I[10:03:44.950] --> textDocument/clangd.fileStatus
+I[10:03:45.032] <-- textDocument/didChange
+I[10:03:45.033] <-- textDocument/completion(223)
+I[10:03:45.033] --> textDocument/clangd.fileStatus
+I[10:03:45.046] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:45.046] Code complete: 1 results from Sema, 8 from Index, 1 matched, 0 from identifiers, 8 returned.
+I[10:03:45.047] --> reply:textDocument/completion(223) 13 ms
+I[10:03:45.083] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:45.083] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 95 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:45.085] --> textDocument/clangd.fileStatus
+I[10:03:45.085] --> textDocument/clangd.fileStatus
+I[10:03:45.086] --> textDocument/clangd.fileStatus
+I[10:03:45.096] --> textDocument/publishDiagnostics
+I[10:03:45.096] --> textDocument/clangd.fileStatus
+I[10:03:45.310] <-- textDocument/semanticTokens/full/delta(224)
+I[10:03:45.310] --> reply:textDocument/semanticTokens/full/delta(224) 0 ms
+I[10:03:45.311] --> textDocument/clangd.fileStatus
+I[10:03:45.356] <-- textDocument/codeAction(225)
+I[10:03:45.356] --> reply:textDocument/codeAction(225) 0 ms
+I[10:03:45.356] --> textDocument/clangd.fileStatus
+I[10:03:45.361] <-- textDocument/documentSymbol(226)
+I[10:03:45.361] --> reply:textDocument/documentSymbol(226) 0 ms
+I[10:03:45.361] --> textDocument/clangd.fileStatus
+I[10:03:46.012] <-- textDocument/didChange
+I[10:03:46.013] --> textDocument/clangd.fileStatus
+I[10:03:46.015] <-- textDocument/documentLink(227)
+I[10:03:46.015] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:46.015] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 96 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:46.017] --> textDocument/clangd.fileStatus
+I[10:03:46.030] --> reply:textDocument/documentLink(227) 14 ms
+I[10:03:46.030] Skipping rebuild of the AST for /volume/dev/C++ stuff/helloworld/src/Main.cpp, inputs are the same.
+I[10:03:46.030] --> textDocument/publishDiagnostics
+I[10:03:46.031] --> textDocument/clangd.fileStatus
+I[10:03:46.286] <-- textDocument/semanticTokens/full/delta(228)
+I[10:03:46.286] --> reply:textDocument/semanticTokens/full/delta(228) 0 ms
+I[10:03:46.286] --> textDocument/clangd.fileStatus
+I[10:03:46.287] <-- textDocument/codeAction(229)
+I[10:03:46.287] --> reply:textDocument/codeAction(229) 0 ms
+I[10:03:46.288] --> textDocument/clangd.fileStatus
+I[10:03:46.337] <-- textDocument/documentSymbol(230)
+I[10:03:46.337] --> reply:textDocument/documentSymbol(230) 0 ms
+I[10:03:46.337] --> textDocument/clangd.fileStatus
+I[10:03:46.474] <-- textDocument/didChange
+I[10:03:46.475] --> textDocument/clangd.fileStatus
+I[10:03:46.525] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:46.526] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 97 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:46.529] --> textDocument/clangd.fileStatus
+I[10:03:46.529] --> textDocument/clangd.fileStatus
+I[10:03:46.531] --> textDocument/clangd.fileStatus
+I[10:03:46.555] --> textDocument/publishDiagnostics
+I[10:03:46.556] --> textDocument/clangd.fileStatus
+I[10:03:46.645] <-- textDocument/didChange
+I[10:03:46.646] --> textDocument/clangd.fileStatus
+I[10:03:46.672] <-- textDocument/completion(231)
+I[10:03:46.682] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:46.682] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[10:03:46.683] --> reply:textDocument/completion(231) 10 ms
+I[10:03:46.697] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:46.697] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 98 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:46.698] --> textDocument/clangd.fileStatus
+I[10:03:46.698] --> textDocument/clangd.fileStatus
+I[10:03:46.699] --> textDocument/clangd.fileStatus
+I[10:03:46.707] --> textDocument/publishDiagnostics
+I[10:03:46.707] --> textDocument/clangd.fileStatus
+I[10:03:46.756] <-- textDocument/semanticTokens/full/delta(232)
+I[10:03:46.757] --> reply:textDocument/semanticTokens/full/delta(232) 0 ms
+I[10:03:46.757] --> textDocument/clangd.fileStatus
+I[10:03:46.964] <-- textDocument/codeAction(233)
+I[10:03:46.965] --> reply:textDocument/codeAction(233) 0 ms
+I[10:03:46.965] --> textDocument/clangd.fileStatus
+I[10:03:46.992] <-- textDocument/documentSymbol(234)
+I[10:03:46.992] --> reply:textDocument/documentSymbol(234) 0 ms
+I[10:03:46.992] --> textDocument/clangd.fileStatus
+I[10:03:47.458] <-- textDocument/documentLink(235)
+I[10:03:47.458] --> reply:textDocument/documentLink(235) 0 ms
+I[10:03:47.459] --> textDocument/clangd.fileStatus
+I[10:03:48.051] <-- textDocument/didSave
+I[10:03:48.052] --> textDocument/clangd.fileStatus
+I[10:03:48.102] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:48.102] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 98 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:48.107] --> textDocument/clangd.fileStatus
+I[10:03:48.107] --> textDocument/clangd.fileStatus
+I[10:03:48.108] --> textDocument/clangd.fileStatus
+I[10:03:48.109] --> textDocument/clangd.fileStatus
+I[10:03:49.269] <-- textDocument/didChange
+I[10:03:49.270] --> textDocument/clangd.fileStatus
+I[10:03:49.270] <-- textDocument/completion(236)
+I[10:03:49.281] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[10:03:49.281] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[10:03:49.282] --> reply:textDocument/completion(236) 11 ms
+I[10:03:49.320] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:49.320] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 99 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:49.322] --> textDocument/clangd.fileStatus
+I[10:03:49.322] --> textDocument/clangd.fileStatus
+I[10:03:49.323] --> textDocument/clangd.fileStatus
+I[10:03:49.355] --> textDocument/publishDiagnostics
+I[10:03:49.355] --> textDocument/clangd.fileStatus
+I[10:03:49.542] <-- textDocument/semanticTokens/full/delta(237)
+I[10:03:49.543] --> reply:textDocument/semanticTokens/full/delta(237) 1 ms
+I[10:03:49.543] --> textDocument/clangd.fileStatus
+I[10:03:49.594] <-- textDocument/documentSymbol(238)
+I[10:03:49.594] --> reply:textDocument/documentSymbol(238) 0 ms
+I[10:03:49.594] --> textDocument/clangd.fileStatus
+I[10:03:49.610] <-- textDocument/codeAction(239)
+I[10:03:49.611] --> reply:textDocument/codeAction(239) 0 ms
+I[10:03:49.611] --> textDocument/clangd.fileStatus
+I[10:03:49.797] <-- textDocument/didChange
+I[10:03:49.799] --> textDocument/clangd.fileStatus
+I[10:03:49.849] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:49.850] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 100 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:49.855] --> textDocument/clangd.fileStatus
+I[10:03:49.855] --> textDocument/clangd.fileStatus
+I[10:03:49.857] --> textDocument/clangd.fileStatus
+I[10:03:49.885] --> textDocument/publishDiagnostics
+I[10:03:49.885] --> textDocument/clangd.fileStatus
+I[10:03:49.983] <-- textDocument/didChange
+I[10:03:49.984] --> textDocument/clangd.fileStatus
+I[10:03:50.037] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:50.038] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 101 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:50.042] --> textDocument/clangd.fileStatus
+I[10:03:50.042] --> textDocument/clangd.fileStatus
+I[10:03:50.044] --> textDocument/clangd.fileStatus
+I[10:03:50.074] --> textDocument/publishDiagnostics
+I[10:03:50.074] --> textDocument/clangd.fileStatus
+I[10:03:50.091] <-- textDocument/semanticTokens/full/delta(240)
+I[10:03:50.091] --> reply:textDocument/semanticTokens/full/delta(240) 0 ms
+I[10:03:50.091] --> textDocument/clangd.fileStatus
+I[10:03:50.245] <-- textDocument/documentLink(241)
+I[10:03:50.245] --> reply:textDocument/documentLink(241) 0 ms
+I[10:03:50.246] --> textDocument/clangd.fileStatus
+I[10:03:50.313] <-- textDocument/documentSymbol(242)
+I[10:03:50.313] --> reply:textDocument/documentSymbol(242) 0 ms
+I[10:03:50.313] --> textDocument/clangd.fileStatus
+I[10:03:50.330] <-- textDocument/codeAction(243)
+I[10:03:50.330] --> reply:textDocument/codeAction(243) 0 ms
+I[10:03:50.330] --> textDocument/clangd.fileStatus
+I[10:03:50.984] <-- textDocument/didSave
+I[10:03:50.987] --> textDocument/clangd.fileStatus
+I[10:03:51.037] Failed to find compilation database for /volume/dev/C++ stuff/helloworld/src/Main.cpp
+I[10:03:51.037] ASTWorker building file /volume/dev/C++ stuff/helloworld/src/Main.cpp version 101 with command clangd fallback
+[/volume/dev/C++ stuff/helloworld/src]
+/usr/bin/clang /volume/dev/C++ stuff/helloworld/src/Main.cpp -fsyntax-only -resource-dir=/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/lib/clang/11.0.0
+I[10:03:51.042] --> textDocument/clangd.fileStatus
+I[10:03:51.042] --> textDocument/clangd.fileStatus
+I[10:03:51.044] --> textDocument/clangd.fileStatus
+I[10:03:51.044] --> textDocument/clangd.fileStatus

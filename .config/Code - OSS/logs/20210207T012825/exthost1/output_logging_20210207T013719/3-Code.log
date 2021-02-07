@@ -1,0 +1,2 @@
+[Running] cd "/volume/dev/C++ stuff/helloworld/src/" && g++ Main.cpp -o Main && "/volume/dev/C++ stuff/helloworld/src/"Main
+Hello World!

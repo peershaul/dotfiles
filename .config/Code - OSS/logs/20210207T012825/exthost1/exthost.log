@@ -1,0 +1,32 @@
+[2021-02-07 01:28:27.796] [exthost] [info] extension host started
+[2021-02-07 01:28:27.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-07 01:28:27.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-02-07 01:28:27.820] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-02-07 01:28:27.820] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-07 01:28:27.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-07 01:28:27.854] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-02-07 01:28:27.922] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-02-07 01:28:27.922] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-07 01:28:27.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-02-07 01:28:27.936] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2021-02-07 01:28:27.950] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2021-02-07 01:28:27.950] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/peershaul/.vscode-oss/extensions/zhuangtongfa.material-theme-3.9.13/out/extension.js
+[2021-02-07 01:28:28.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-07 01:28:28.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-02-07 01:28:28.277] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-07 01:28:28.277] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-07 01:28:28.385] [exthost] [info] eager extensions activated
+[2021-02-07 01:36:56.029] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd {"startup":false,"extensionId":{"value":"llvm-vs-code-extensions.vscode-clangd","_lower":"llvm-vs-code-extensions.vscode-clangd"},"activationEvent":"onLanguage:cpp"}
+[2021-02-07 01:36:56.029] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/peershaul/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.7/out/src/extension
+[2021-02-07 01:36:59.203] [exthost] [info] ExtensionService#_doActivateExtension mitaki28.vscode-clang {"startup":false,"extensionId":{"value":"mitaki28.vscode-clang","_lower":"mitaki28.vscode-clang"},"activationEvent":"onLanguage:cpp"}
+[2021-02-07 01:36:59.203] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/peershaul/.vscode-oss/extensions/mitaki28.vscode-clang-0.2.3/out/src/extension
+[2021-02-07 01:37:18.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2021-02-07 01:37:18.737] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-02-07 01:37:18.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-02-07 01:37:18.751] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extensionEditingMain
+[2021-02-07 01:37:18.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2021-02-07 01:37:18.778] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-02-07 01:37:18.811] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-02-07 01:37:18.811] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/npm/dist/npmMain
+[2021-02-07 01:37:19.051] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner {"startup":false,"extensionId":{"value":"formulahendry.code-runner","_lower":"formulahendry.code-runner"},"activationEvent":"onStartupFinished"}
+[2021-02-07 01:37:19.051] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/peershaul/.vscode-oss/extensions/formulahendry.code-runner-0.11.2/out/src/extension

@@ -1,0 +1,15 @@
+[2021-02-06 20:06:53.816] [sharedprocess] [info] main {"machineId":"07ba63fdc234952a0088079e501d48a8dfb52e90a920daf6b0fdf3be05615a6c","windowId":2}
+[2021-02-06 20:06:53.831] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/peershaul/.config/Code - OSS/User/snippets'
+[2021-02-06 20:07:12.349] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2021-02-06 20:07:12.862] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme undefined
+[2021-02-06 20:07:12.945] [sharedprocess] [info] Extracted extension to /home/peershaul/.vscode-oss/extensions/.zhuangtongfa.material-theme-3.9.13: zhuangtongfa.material-theme
+[2021-02-06 20:07:12.945] [sharedprocess] [info] Renamed to /home/peershaul/.vscode-oss/extensions/zhuangtongfa.material-theme-3.9.13
+[2021-02-06 20:07:12.946] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme
+[2021-02-06 20:07:12.979] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2021-02-06 20:07:33.827] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-02-06 20:08:44.379] [sharedprocess] [info] Installing extension: tomi.xasnippets
+[2021-02-06 20:08:44.707] [sharedprocess] [info] Downloaded extension: tomi.xasnippets undefined
+[2021-02-06 20:08:44.736] [sharedprocess] [info] Extracted extension to /home/peershaul/.vscode-oss/extensions/.tomi.xasnippets-2.8.0: tomi.xasnippets
+[2021-02-06 20:08:44.737] [sharedprocess] [info] Renamed to /home/peershaul/.vscode-oss/extensions/tomi.xasnippets-2.8.0
+[2021-02-06 20:08:44.738] [sharedprocess] [info] Installation completed. tomi.xasnippets
+[2021-02-06 20:08:44.781] [sharedprocess] [info] Extensions installed successfully: tomi.xasnippets

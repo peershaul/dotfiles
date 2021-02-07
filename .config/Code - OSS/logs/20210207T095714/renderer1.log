@@ -1,0 +1,2 @@
+[2021-02-07 09:57:16.522] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/volume/dev/C++ stuff/helloworld/.vscode'
+[2021-02-07 09:57:31.468] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/volume/dev/C++ stuff/helloworld/.vscode'

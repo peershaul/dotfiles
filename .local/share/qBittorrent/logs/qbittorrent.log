@@ -1,0 +1,33 @@
+(N) 2021-02-06T23:56:16 - qBittorrent v4.3.3 started
+(N) 2021-02-06T23:56:16 - Using config directory: /home/peershaul/.config/qBittorrent/
+(I) 2021-02-06T23:56:18 - Trying to listen on: 0.0.0.0:52889,[::]:52889
+(N) 2021-02-06T23:56:18 - Peer ID: -qB4330-
+(N) 2021-02-06T23:56:18 - HTTP User-Agent is 'qBittorrent/4.3.3'
+(I) 2021-02-06T23:56:18 - DHT support [ON]
+(I) 2021-02-06T23:56:18 - Local Peer Discovery support [ON]
+(I) 2021-02-06T23:56:18 - PeX support [ON]
+(I) 2021-02-06T23:56:18 - Anonymous mode [OFF]
+(I) 2021-02-06T23:56:18 - Encryption support [ON]
+(I) 2021-02-06T23:56:18 - UPnP / NAT-PMP support [ON]
+(W) 2021-02-06T23:56:18 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2021-02-06T23:56:18 - Options were saved successfully.
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: 127.0.0.1, port: TCP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: 127.0.0.1, port: UDP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: 192.168.1.13, port: TCP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: 192.168.1.13, port: UDP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: ::1, port: TCP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: ::1, port: UDP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: fe80::a97:db6d:b127:69d5%enp3s0, port: TCP/52889
+(I) 2021-02-06T23:56:18 - Successfully listening on IP: fe80::a97:db6d:b127:69d5%enp3s0, port: UDP/52889
+(I) 2021-02-06T23:56:18 - Detected external IP: 84.229.142.92
+(I) 2021-02-06T23:56:19 - UPnP/NAT-PMP: Port mapping successful, message: successfully mapped port using UPnP. external port: TCP/52889
+(N) 2021-02-06T23:56:20 - 'firmware-10.8.0-amd64-netinst.iso' added to download list.
+(I) 2021-02-06T23:56:20 - UPnP/NAT-PMP: Port mapping successful, message: successfully mapped port using UPnP. external port: UDP/52889
+(W) 2021-02-06T23:56:22 - Received error message from a URL seed. Torrent: "firmware-10.8.0-amd64-netinst.iso". URL: "https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware//archive/10.8.0+nonfree//srv/cdbuilder.debian.org/dst/deb-cd/weekly-builds-firmware/amd64/iso-cd/firmware-10.8.0-amd64-netinst.iso". Message: "404 Not Found"
+(W) 2021-02-06T23:56:22 - Received error message from a URL seed. Torrent: "firmware-10.8.0-amd64-netinst.iso". URL: "https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware//10.8.0+nonfree//srv/cdbuilder.debian.org/dst/deb-cd/weekly-builds-firmware/amd64/iso-cd/firmware-10.8.0-amd64-netinst.iso". Message: "404 Not Found"
+(I) 2021-02-06T23:56:23 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Feb 1 03:07:58 2021.
+(I) 2021-02-06T23:56:23 - Successfully updated IP geolocation database.
+(W) 2021-02-06T23:56:52 - Received error message from a URL seed. Torrent: "firmware-10.8.0-amd64-netinst.iso". URL: "https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware//archive/10.8.0+nonfree//srv/cdbuilder.debian.org/dst/deb-cd/weekly-builds-firmware/amd64/iso-cd/firmware-10.8.0-amd64-netinst.iso". Message: "404 Not Found"
+(W) 2021-02-06T23:56:52 - Received error message from a URL seed. Torrent: "firmware-10.8.0-amd64-netinst.iso". URL: "https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware//10.8.0+nonfree//srv/cdbuilder.debian.org/dst/deb-cd/weekly-builds-firmware/amd64/iso-cd/firmware-10.8.0-amd64-netinst.iso". Message: "404 Not Found"
+(W) 2021-02-06T23:57:22 - Received error message from a URL seed. Torrent: "firmware-10.8.0-amd64-netinst.iso". URL: "https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware//10.8.0+nonfree//srv/cdbuilder.debian.org/dst/deb-cd/weekly-builds-firmware/amd64/iso-cd/firmware-10.8.0-amd64-netinst.iso". Message: "404 Not Found"
+(W) 2021-02-06T23:57:22 - Received error message from a URL seed. Torrent: "firmware-10.8.0-amd64-netinst.iso". URL: "https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware//archive/10.8.0+nonfree//srv/cdbuilder.debian.org/dst/deb-cd/weekly-builds-firmware/amd64/iso-cd/firmware-10.8.0-amd64-netinst.iso". Message: "404 Not Found"

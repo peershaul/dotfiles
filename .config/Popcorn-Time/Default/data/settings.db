@@ -1,7 +1,19 @@
-{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"filters","value":{"movies":{"sorter":"trending","genre":"","order":-1}},"_id":"0MDrxUnAhmZb6wbS"}
+{"key":"version","value":"0.4.4","_id":"0qSMdtg1tqqYFvTa"}
+{"key":"os","value":"linux","_id":"1DZJfs7jmCiJYc4C"}
+{"key":"disclaimerAccepted","value":1,"_id":"2Z7Wnvm4USaZvL9W"}
+{"key":"movies_default_quality","value":"1080p","_id":"7fHp6zP9sK8Uvgtd"}
 {"key":"language","value":"en","_id":"9AkXSTjvTd9IMaAD"}
+{"key":"playerVolume","value":"1.0","_id":"Q0yhcFIRHTNVSWk7"}
+{"key":"arch","value":"x64","_id":"qYjyCMJvVYzj4gre"}
+{"key":"releaseName","value":"Love in the Time of Corona","_id":"vTzW1Gyu355N0goO"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
 {"key":"version","value":"0.4.4","_id":"0qSMdtg1tqqYFvTa"}
 {"key":"releaseName","value":"Love in the Time of Corona","_id":"vTzW1Gyu355N0goO"}
 {"key":"arch","value":"x64","_id":"qYjyCMJvVYzj4gre"}
 {"key":"os","value":"linux","_id":"1DZJfs7jmCiJYc4C"}
-{"key":"disclaimerAccepted","value":1,"_id":"2Z7Wnvm4USaZvL9W"}
+{"key":"filters","value":{"movies":{"sorter":"trending","genre":"","order":-1}},"_id":"0MDrxUnAhmZb6wbS"}
+{"key":"playerVolume","value":"1.0","_id":"Q0yhcFIRHTNVSWk7"}
+{"key":"lastWatchedTime","value":false,"_id":"QhZ019dGjtn1wIUs"}
+{"key":"totalDownloaded","value":null,"_id":"Rdsu1A3k2SvM7etW"}
+{"key":"totalUploaded","value":null,"_id":"Wym71QIDLdoA7Zqe"}

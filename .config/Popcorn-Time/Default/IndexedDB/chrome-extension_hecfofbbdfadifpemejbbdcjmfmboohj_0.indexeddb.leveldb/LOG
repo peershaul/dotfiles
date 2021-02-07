@@ -1,1 +1,7 @@
-2021/02/05-22:58:13.094 14de Reusing MANIFEST /home/peershaul/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/05-23:19:18.692 30e Reusing MANIFEST /home/peershaul/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/05-23:19:18.692 30e Recovering log #4
+2021/02/05-23:19:18.702 30e Reusing old log /home/peershaul/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/000004.log 
+2021/02/06-01:18:55.486 cb0d Level-0 table #8: started
+2021/02/06-01:18:55.544 cb0d Level-0 table #8: 1087 bytes OK
+2021/02/06-01:18:55.620 cb0d Delete type=0 #4
+2021/02/06-01:18:55.620 cb0d Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

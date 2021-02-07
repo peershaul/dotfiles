@@ -1,0 +1,225 @@
+/bin/sh: line 1: xss-lock: command not found
+/home/peershaul/.config/i3/personal.init: line 5: discord: command not found
+
+(nm-applet:605): Gtk-WARNING **: 16:08:59.859: Theme parsing error: gtk.css:6363:24: 'none' is not a valid color name
+
+(nitrogen:613): Gtk-WARNING **: 16:08:59.890: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:613): Gtk-WARNING **: 16:08:59.894: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:08:59.894: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:08:59.903: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:08:59.903: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:08:59.903: Unable to locate theme engine in module_path: "murrine",
+[ 02/07/2021 16:08:59.935 x_fence_sync ERROR ] Failed to trigger the fence (X error 136 XSyncBadFence request 134 minor 15 serial 1774)
+[ 02/07/2021 16:08:59.935 paint_all ERROR ] x_fence_sync failed, xrender-sync-fence will be disabled from now on.
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.606: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.607: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.607: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.607: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.607: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.608: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.693: Unable to locate theme engine in module_path: "adwaita",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.695: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.695: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.695: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.695: Unable to locate theme engine in module_path: "murrine",
+
+(nitrogen:613): Gtk-WARNING **: 16:09:00.695: Unable to locate theme engine in module_path: "murrine",
+
+(xfce4-terminal:670): Gtk-WARNING **: 16:09:17.999: Theme parsing error: gtk.css:6363:24: 'none' is not a valid color name
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(brave:777): Gtk-WARNING **: 16:10:31.155: Theme parsing error: gtk.css:6363:24: 'none' is not a valid color name
+[777:833:0207/161031.365840:ERROR:object_proxy.cc(621)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[777:833:0207/161031.365987:ERROR:object_proxy.cc(621)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[777:833:0207/161031.366147:ERROR:object_proxy.cc(621)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[ 02/07/2021 16:13:04.522 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b6 (Warning: Unsafe Paste)
+[ 02/07/2021 16:13:41.573 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000a2 (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:41.573 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040009c (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:41.574 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000ad (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:41.625 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000a2 (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:41.625 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040009c (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:41.625 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000ad (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:41.641 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000a2 (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:41.641 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040009c (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:41.641 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000ad (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:41.701 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000a2 (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:41.701 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040009c (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:41.701 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000ad (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:41.826 x_create_picture_with_pictfmt_and_pixmap ERROR ] failed to create picture (X error 9 DRAWABLE request 139 minor 4 serial 64235)
+[ 02/07/2021 16:13:41.827 paint_one ERROR ] Window 0x004000ac is missing painting data.
+polybar|notice:  Parsing config file: /home/peershaul/.config/polybar/config
+polybar|notice:  Parsing config file: /home/peershaul/.config/polybar/config
+[ 02/07/2021 16:13:41.973 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000a2 (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:41.973 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040009c (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:41.973 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000ad (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+polybar|error: Disabling module "bspwm" (reason: Could not find socket: /tmp/bspwm_0_0-socket)
+polybar|error: Disabling module "bspwm" (reason: Could not find socket: /tmp/bspwm_0_0-socket)
+polybar|error: module/mpd: Connection refused
+polybar|error: module/xbacklight: Could not get data (err: XCB_NAME (15))
+polybar|error: Disabling module "xbacklight" (reason: Not supported for "HDMI-0")
+ALSA lib dlmisc.c:339:(snd_dlobj_cache_get0) Cannot open shared library libasound_module_ctl_pulse.so (/usr/lib/alsa-lib/libasound_module_ctl_pulse.so: cannot open shared object file: No such file or directory)
+polybar|error: Disabling module "alsa" (reason: Cannot find simple element)
+polybar|error: module/mpd: Connection refused
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|error: module/xbacklight: Could not get data (err: XCB_NAME (15))
+polybar|error: Disabling module "xbacklight" (reason: Not supported for "DVI-D-0")
+ALSA lib dlmisc.c:339:(snd_dlobj_cache_get0) Cannot open shared library libasound_module_ctl_pulse.so (/usr/lib/alsa-lib/libasound_module_ctl_pulse.so: cannot open shared object file: No such file or directory)
+polybar|error: Disabling module "alsa" (reason: Cannot find simple element)
+polybar|error: Disabling module "wlan" (reason: Invalid network interface "net1")
+polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|error: module/mpd: Connection refused
+polybar|error: Disabling module "wlan" (reason: Invalid network interface "net1")
+polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
+polybar|error: module/mpd: Connection refused
+polybar|notice:  Loaded font "fixed:pixelsize=10" (name=Verdana, offset=1, file=/usr/share/fonts/TTF/Verdana.TTF)
+polybar|notice:  Loaded font "unifont:fontformat=truetype:size=8:antialias=false" (name=Unifont, offset=0, file=/usr/share/fonts/Unifont/Unifont.ttf)
+polybar|notice:  Loaded font "siji:pixelsize=10" (name=Siji, offset=1, file=/usr/share/fonts/misc/siji.bdf)
+polybar|warn:  Systray selection already managed (window=0x2400009)
+polybar|notice:  Loaded font "fixed:pixelsize=10" (name=Verdana, offset=1, file=/usr/share/fonts/TTF/Verdana.TTF)
+polybar|notice:  Loaded font "unifont:fontformat=truetype:size=8:antialias=false" (name=Unifont, offset=0, file=/usr/share/fonts/Unifont/Unifont.ttf)
+polybar|notice:  Loaded font "siji:pixelsize=10" (name=Siji, offset=1, file=/usr/share/fonts/misc/siji.bdf)
+polybar|error: tray: Failed to put tray above 0x2200002 in the stack (XCB_MATCH (8))
+polybar|warn:  Systray selection already managed (window=0x2400009)
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+[ 02/07/2021 16:13:46.040 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040007b (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:46.040 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000be (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.040 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b3 (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.040 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040006f (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:46.040 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b8 (polybar-example_HDMI-0)
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+[ 02/07/2021 16:13:46.092 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040007b (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:46.092 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000be (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.092 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b3 (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.092 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040006f (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:46.092 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b8 (polybar-example_HDMI-0)
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to connect to i3: errno 2 (No such file or directory))
+[ 02/07/2021 16:13:46.108 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040007b (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:46.108 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000be (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.108 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b3 (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.108 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040006f (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:46.108 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b8 (polybar-example_HDMI-0)
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Failed to read header from socket 0xd: errno 22 (Invalid argument))
+[ 02/07/2021 16:13:46.147 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040007b (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:46.147 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000be (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.148 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b3 (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.148 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040006f (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:46.148 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b8 (polybar-example_HDMI-0)
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+[ 02/07/2021 16:13:46.256 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040007b (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:46.256 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000be (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.256 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b3 (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.256 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040006f (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:46.256 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b8 (polybar-example_HDMI-0)
+polybar|notice:  Parsing config file: /home/peershaul/.config/polybar/config
+polybar|notice:  Parsing config file: /home/peershaul/.config/polybar/config
+[ 02/07/2021 16:13:46.518 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040007b (Terminal - peershaul@peershaul:~/.config/polybar)
+[ 02/07/2021 16:13:46.518 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000be (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.518 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b3 (polybar-example_DVI-D-0)
+[ 02/07/2021 16:13:46.518 win_clear_flags WARN ] Flags cleared on a destroyed window 0x0040006f (Set polybar on multiple screens. · Issue #763 · polybar/polybar - Brave)
+[ 02/07/2021 16:13:46.518 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000b8 (polybar-example_HDMI-0)
+polybar|error: Disabling module "bspwm" (reason: Could not find socket: /tmp/bspwm_0_0-socket)
+polybar|error: Disabling module "bspwm" (reason: Could not find socket: /tmp/bspwm_0_0-socket)
+polybar|error: module/mpd: Connection refused
+polybar|error: module/xbacklight: Could not get data (err: XCB_NAME (15))
+polybar|error: Disabling module "xbacklight" (reason: Not supported for "DVI-D-0")
+ALSA lib dlmisc.c:339:(snd_dlobj_cache_get0) Cannot open shared library libasound_module_ctl_pulse.so (/usr/lib/alsa-lib/libasound_module_ctl_pulse.so: cannot open shared object file: No such file or directory)
+polybar|error: Disabling module "alsa" (reason: Cannot find simple element)
+polybar|error: module/mpd: Connection refused
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|error: module/xbacklight: Could not get data (err: XCB_NAME (15))
+polybar|error: Disabling module "xbacklight" (reason: Not supported for "HDMI-0")
+ALSA lib dlmisc.c:339:(snd_dlobj_cache_get0) Cannot open shared library libasound_module_ctl_pulse.so (/usr/lib/alsa-lib/libasound_module_ctl_pulse.so: cannot open shared object file: No such file or directory)
+polybar|error: Disabling module "alsa" (reason: Cannot find simple element)
+polybar|error: Disabling module "wlan" (reason: Invalid network interface "net1")
+polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
+polybar|error: module/mpd: Connection refused
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|error: Disabling module "wlan" (reason: Invalid network interface "net1")
+polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
+polybar|error: module/mpd: Connection refused
+polybar|notice:  Loaded font "fixed:pixelsize=10" (name=Verdana, offset=1, file=/usr/share/fonts/TTF/Verdana.TTF)
+polybar|notice:  Loaded font "unifont:fontformat=truetype:size=8:antialias=false" (name=Unifont, offset=0, file=/usr/share/fonts/Unifont/Unifont.ttf)
+polybar|notice:  Loaded font "siji:pixelsize=10" (name=Siji, offset=1, file=/usr/share/fonts/misc/siji.bdf)
+polybar|warn:  Systray selection already managed (window=0x2200009)
+polybar|notice:  Loaded font "fixed:pixelsize=10" (name=Verdana, offset=1, file=/usr/share/fonts/TTF/Verdana.TTF)
+polybar|notice:  Loaded font "unifont:fontformat=truetype:size=8:antialias=false" (name=Unifont, offset=0, file=/usr/share/fonts/Unifont/Unifont.ttf)
+polybar|notice:  Loaded font "siji:pixelsize=10" (name=Siji, offset=1, file=/usr/share/fonts/misc/siji.bdf)
+polybar|warn:  Systray selection already managed (window=0x2200009)
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+[libi3] ../i3-4.19.1/libi3/font.c Using Pango font monospace, size 8
+[libi3] ../i3-4.19.1/i3-nagbar/main.c Found primary output on position x = 0 / y = 0 / w = 1920 / h = 1080.
+polybar|error: module/mpd: Connection refused
+polybar|error: module/mpd: Connection refused
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to read header from socket 0xd: errno 104 (Connection reset by peer))
+polybar|error: module/i3: Failed to reconnect socket (reason: Failed to read header from socket 0xd: errno 104 (Connection reset by peer))
+[ 02/07/2021 16:13:58.053 x_fetch_region ERROR ] Failed to fetch rectangles (No error)
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 68937 requests (68937 known processed) with 0 events remaining.
+Gdk-Message: 16:13:58.064: nm-applet: Fatal IO error 104 (Connection reset by peer) on X server :0.
+
+Gdk-Message: 16:13:58.065: xfce4-terminal: Fatal IO error 104 (Connection reset by peer) on X server :0.
+
+polybar|notice:  Termination signal received, shutting down...
+[800:800:0207/161358.068594:ERROR:connection.cc(65)] X connection error received.
+[800:849:0207/161358.068627:ERROR:connection.cc(65)] X connection error received.
+[800:800:0207/161358.073948:ERROR:gl_surface_egl.cc(773)] EGL Driver message (Critical) eglMakeCurrent: Failed to make the GLX context current
+[800:800:0207/161358.074268:ERROR:gl_surface_egl.cc(773)] EGL Driver message (Critical) eglMakeCurrent: Failed to make the GLX context current

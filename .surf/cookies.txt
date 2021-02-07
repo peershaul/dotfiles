@@ -1,0 +1,6 @@
+#HttpOnly_.youtube.com	TRUE	/	TRUE	1628192692	VISITOR_INFO1_LIVE	SG6HzoHrrN8	None
+#HttpOnly_.youtube.com	TRUE	/	TRUE	1613850299	hideBrowserUpgradeBox	true	None
+.youtube.com	TRUE	/	TRUE	1633678680	PREF	tz=Asia.Jerusalem	None
+duckduckgo.com	FALSE	/	TRUE	1736632800	aq	-1	Strict
+.github.com	TRUE	/	TRUE	1644231695	_octo	GH1.1.47253853.1612695695	Lax
+#HttpOnly_.github.com	TRUE	/	TRUE	1644231695	logged_in	no	Lax

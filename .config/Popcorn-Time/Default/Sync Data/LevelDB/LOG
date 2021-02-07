@@ -1,1 +1,3 @@
-2021/02/05-22:58:11.154 14d7 Reusing MANIFEST /home/peershaul/.config/Popcorn-Time/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/02/05-23:19:16.612 310 Reusing MANIFEST /home/peershaul/.config/Popcorn-Time/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/02/05-23:19:16.612 310 Recovering log #3
+2021/02/05-23:19:16.634 310 Reusing old log /home/peershaul/.config/Popcorn-Time/Default/Sync Data/LevelDB/000003.log 

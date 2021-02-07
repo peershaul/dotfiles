@@ -1,0 +1,2 @@
+[2021-02-06 20:06:50.419] [main] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/peershaul/.config/Code - OSS/User'
+[2021-02-06 20:06:50.618] [main] [info] update#ctor - updates are disabled as there is no update URL

@@ -1,3 +1,6 @@
-2021/02/05-18:19:31.177 3 Reusing MANIFEST /home/peershaul/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/02/05-18:19:31.178 3 Recovering log #3
-2021/02/05-18:19:31.178 3 Reusing old log /home/peershaul/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000003.log 
+2021/02/07-16:39:16.559 3 Reusing MANIFEST /home/peershaul/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/02/07-16:39:16.559 3 Recovering log #4
+2021/02/07-16:39:16.560 3 Reusing old log /home/peershaul/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000004.log 
+2021/02/07-16:39:38.955 5 Level-0 table #8: started
+2021/02/07-16:39:38.990 5 Level-0 table #8: 17463 bytes OK
+2021/02/07-16:39:39.021 5 Delete type=0 #4

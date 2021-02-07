@@ -1,0 +1,4 @@
+[2021-02-07 01:28:27.019] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/volume/dev/C++ stuff/helloworld/.vscode'
+[2021-02-07 01:36:51.774] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/objective-c/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/objective-c/package.json'
+[2021-02-07 01:36:51.775] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/cpp/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/cpp/package.json'
+[2021-02-07 01:36:51.775] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/csharp/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/csharp/package.json'

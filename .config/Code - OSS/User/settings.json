@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontFamily": "Source Code Pro",
+    "files.autoSave": "afterDelay",
+    "clangd.path": "/home/peershaul/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/bin/clangd"
+}
